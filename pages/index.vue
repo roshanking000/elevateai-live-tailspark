@@ -3,9 +3,11 @@
     <div
       class="block fixed top-[0%] left-[0%] right-[auto] bottom-[auto]"
     ></div>
+    <!-- HEADER -->
     <Header />
     <main class="text-white bg-[#00000000] bg-none bg-auto relative block">
-      <header
+      <!-- Hero Container -->
+      <section
         class="max-[479px]:bg-[100%_100%] max-[767px]:bg-[100%_100%] max-[767px]:bg-contain font-normal relative block"
       >
         <div
@@ -21,17 +23,20 @@
                 data-aos="fade-up"
                 data-aos-duration="700"
               >
+                <!-- TITLE -->
                 <h1
                   class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-4xl md:text-6xl"
                 >
                   ElevateAI: Propel Your Marketing with the Power of AI
                 </h1>
+                <!-- CONTENT -->
                 <div class="max-w-[640px]">
                   <p class="text-[#c4cff5]">
                     Unleash AI to drive your marketing growth. Welcome to
                     ElevateAI - where we convert raw data into strategic power.
                   </p>
                 </div>
+                <!-- BUTTON -->
                 <div class="max-[479px]: max-[767px]:m-5 mt-6 lg:mt-8">
                   <a
                     color="primary"
@@ -49,14 +54,6 @@
                     </div>
                     <div
                       class="w-10 h-10 bg-[#c4cff5] filter blur-[60px] absolute top-0 left-0 right-auto bottom-auto"
-                      style="
-                        will-change: transform;
-                        transform: translate3d(174.945%, 24.975%, 0px)
-                          scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
-                          rotateZ(0deg) skew(0deg, 0deg);
-                        transform-style: preserve-3d;
-                        opacity: 0;
-                      "
                     ></div>
                   </a>
                 </div>
@@ -64,6 +61,7 @@
             </div>
           </div>
         </div>
+        <!-- SVG ICON -->
         <div
           class="max-[479px]:max-w-[62rem] max-[479px]:top-[25.1rem] max-[479px]:-right-[16.1rem] w-full max-w-[65rem] mix-blend-overlay absolute top-[28.6rem] left-auto -right-[17rem]"
         >
@@ -86,7 +84,8 @@
             />
           </div>
         </div>
-      </header>
+      </section>
+      <!-- SECTION Discover -->
       <div
         class="max-[767px]:h-auto max-[991px]:h-auto h-[1300px] overflow-visible"
       >
@@ -104,10 +103,12 @@
                     data-aos="fade-up"
                     data-aos-duration="700"
                   >
+                    <!-- TITLE -->
                     <h2 class="font-bold text-3xl md:text-5xl">
                       Discover The Unique ElevateAI Difference
                     </h2>
                     <div class="max-[479px]:pb-6 md:pb-10 lg:pb-12"></div>
+                    <!-- BUTTON -->
                     <a
                       color="primary"
                       href="#"
@@ -127,6 +128,7 @@
                   <section
                     class="max-[991px]:flex-col gap-8 flex-row flex w-full lg:w-[300%]"
                   >
+                    <!-- Predictive Analytics Component -->
                     <div
                       class="max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8"
                     >
@@ -151,6 +153,7 @@
                         </p>
                       </div>
                     </div>
+                    <!-- Customer Segmentation Component -->
                     <div
                       class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none"
                     >
@@ -180,6 +183,7 @@
                         </div>
                       </div>
                     </div>
+                    <!-- Insightful Actions Component -->
                     <div
                       class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none"
                     >
@@ -216,6 +220,7 @@
           </div>
         </div>
       </div>
+      <!-- SECTION Trusted -->
       <section
         class="py-12 md:py-16 lg:py-20 bg-[#0f0d1f]"
         data-aos="fade-up"
@@ -224,12 +229,14 @@
         <div
           class="max-w-[704px] text-center flex-col items-center mx-auto flex"
         >
+          <!-- TITLE -->
           <h2
             class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
           >
             Trusted by Thousands
           </h2>
           <div class="max-[991px]: p-4"></div>
+          <!-- CONTENT -->
           <div class="max-w-[640px]">
             <p class="text-[#c4cff5]">
               ElevateAI's AI-centric solutions have enabled businesses to scale
@@ -238,6 +245,7 @@
             <div class="max-[767px]:p-5 max-[991px]:p-6 w-full pt-8"></div>
           </div>
         </div>
+        <!-- ANIMATION SECTION -->
         <div class="relative">
           <div
             class="[flex-flow:row] mt-6 flex relative overflow-hidden grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center sm:justify-between md:justify-items-stretch gap-5 md:gap-4"
@@ -311,9 +319,7 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="flex-none flex animate-infinite-left-scroll"
-              >
+              <div class="flex-none flex animate-infinite-left-scroll">
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
                 >
@@ -387,9 +393,7 @@
             class="[flex-flow:row] mt-6 flex relative overflow-hidden grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center sm:justify-between md:justify-items-stretch gap-5 md:gap-4"
           >
             <div class="flex-row-reverse flex translate-x-0">
-              <div
-                class="flex-none flex animate-infinite-right-scroll"
-              >
+              <div class="flex-none flex animate-infinite-right-scroll">
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
                 >
@@ -457,9 +461,7 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="flex-none flex animate-infinite-right-scroll"
-              >
+              <div class="flex-none flex animate-infinite-right-scroll">
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
                 >
@@ -532,7 +534,218 @@
         </div>
         <div class="max-[767px]:p-6 max-[991px]:p-10 pt-12"></div>
       </section>
+      <!-- SVG ICON -->
+      <div
+        class="max-w-[496px] top-[26%] left-auto max-[767px]:w-72 pointer-events-none absolute bottom-0 md:bottom-0 right-0 md:right-[-31%]"
+      >
+        <div class="w-full filter blur-[300px] mix-blend-color-dodge">
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
+            alt=""
+            class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
+            style="visibility: visible"
+          />
+        </div>
+      </div>
+      <div
+        class="max-w-[496px] top-0 left-[-16%] max-[767px]:w-72 pointer-events-none absolute bottom-0 md:bottom-0 right-0 md:right-auto"
+      >
+        <div class="w-full filter blur-[300px] mix-blend-color-dodge">
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
+            alt=""
+            class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
+            style="visibility: visible"
+          />
+        </div>
+      </div>
     </main>
+    <!-- SECTION Smooth Process -->
+    <section class="relative block">
+      <div class="px-5 md:px-10">
+        <div class="z-10 w-full max-w-7xl mx-auto relative">
+          <div class="py-12 md:py-16 lg:py-20">
+            <div
+              class="max-w-[704px] text-center flex-col items-center mx-auto flex"
+            >
+              <div
+                class="z-[2] text-center relative"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                <!-- TITLE -->
+                <h2
+                  class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
+                >
+                  Smooth Process. Transformative Outcomes.
+                </h2>
+              </div>
+            </div>
+            <!-- STEP -->
+            <div
+              class="flex-col justify-center items-center flex relative pt-20"
+            >
+              <div
+                class="max-[767px]:flex-col w-full justify-around flex relative gap-8 md:gap-4"
+              >
+                <!-- Strategy Development STEP -->
+                <a
+                  class="mix-blend-screen bg-[#170e1b] flex-1 flex gap-2 text-[#c4cff5] border border-dashed border-[#28284a80] flex-col items-start px-6 py-7 transition max-[479px]:block align-top text-left relative max-w-full rounded-2xl"
+                  href="#w-tabs-0-data-w-pane-0"
+                  style="border-color: rgb(215, 47, 202)"
+                >
+                  <h3
+                    class="text-white font-bold text-2xl md:text-2xl"
+                    style="color: rgb(215, 47, 202)"
+                  >
+                    Strategy Development
+                  </h3>
+                  <p class="text-sm">
+                    We start by understanding your unique goals and challenges,
+                    laying the foundation for a tailored strategy.
+                  </p>
+                  <div
+                    class="max-[767px]:-bottom-6 aspect-[1_/_1] opacity-80 absolute -bottom-[30px] right-1/2 translate-x-1/2 w-12 md:w-14"
+                  >
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
+                      alt=""
+                      class="w-full h-full object-contain absolute inline-block"
+                      style="opacity: 0"
+                    />
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
+                      alt=""
+                      class="opacity-0 w-full h-full object-contain absolute inline-block"
+                      style="opacity: 1"
+                    />
+                  </div>
+                </a>
+                <!-- Personalized Consultation STEP -->
+                <a
+                  class="gap-2 text-[#c4cff5] mix-blend-screen bg-[#0e101b] border border-solid border-[#28284a80] flex-col flex-1 items-start px-6 py-7 transition flex max-[479px]:block align-top text-left relative max-w-full rounded-2xl"
+                  tabindex="-1"
+                  href="#w-tabs-0-data-w-pane-1"
+                >
+                  <h3 class="text-white font-bold text-2xl md:text-2xl">
+                    Personalized Consultation
+                  </h3>
+                  <p class="text-sm">
+                    We start by understanding your unique goals and challenges,
+                    laying the foundation for a tailored strategy.
+                  </p>
+                  <div
+                    class="max-[767px]:-bottom-6 aspect-[1_/_1] opacity-80 absolute -bottom-[30px] right-1/2 translate-x-1/2 w-12 md:w-14"
+                  >
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
+                      alt=""
+                      class="w-full h-full object-contain absolute inline-block"
+                    />
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
+                      alt=""
+                      class="opacity-0 w-full h-full object-contain absolute inline-block"
+                    />
+                  </div>
+                </a>
+                <!-- Analysis and Reporting STEP -->
+                <a
+                  class="gap-2 text-[#c4cff5] mix-blend-screen bg-[#0e101b] border border-solid border-[#28284a80] flex-col flex-1 items-start px-6 py-7 transition flex max-[479px]:block align-top text-left relative max-w-full rounded-2xl"
+                  tabindex="-1"
+                  href="#w-tabs-0-data-w-pane-2"
+                >
+                  <h3 class="text-white font-bold text-2xl md:text-2xl">
+                    Analysis and Reporting
+                  </h3>
+                  <p class="text-sm">
+                    We start by understanding your unique goals and challenges,
+                    laying the foundation for a tailored strategy.
+                  </p>
+                  <div
+                    class="max-[767px]:-bottom-6 aspect-[1_/_1] opacity-80 absolute -bottom-[30px] right-1/2 translate-x-1/2 w-12 md:w-14"
+                  >
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
+                      alt=""
+                      class="w-full h-full object-contain absolute inline-block"
+                    />
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
+                      alt=""
+                      class="opacity-0 w-full h-full object-contain absolute inline-block"
+                    />
+                  </div>
+                </a>
+              </div>
+              <!-- IMAGE -->
+              <div class="w-full mt-16 block relative overflow-hidden">
+                <div class="min-w-[0%] block relative">
+                  <img
+                    alt="App preview"
+                    src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836e_Frame%2048323%20(2).png"
+                    class="max-[479px]:p-2 max-[991px]:p-4 w-full mix-blend-screen bg-[#472cb51a] px-8 inline-block rounded-2xl pt-8 pb-12"
+                    style="visibility: visible"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG ICON -->
+      <div
+        class="max-w-[560px] top-auto left-[8%] pointer-events-none absolute w-72 md:w-full bottom-0 md:bottom-[-30%] right-0 md:right-auto"
+      >
+        <div class="w-full filter blur-[300px] mix-blend-color-dodge">
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
+            alt=""
+            class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
+            style="visibility: visible"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- SECTION Merge -->
+    <section class="relative block">
+      <div class="px-5 md:px-10">
+        <div class="z-10 w-full max-w-7xl mx-auto relative">
+          <div
+            class="py-12 md:py-16 lg:py-20"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            <div
+              class="max-w-[704px] text-center flex-col items-center mx-auto flex"
+            >
+              <div class="z-[2] text-center relative">
+                <!-- TITLE -->
+                <h2
+                  class="max-[991px]:bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] text-transparent bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
+                >
+                  Merge with Your Existing Tech&nbsp;Environment
+                </h2>
+                <!-- CONTENT -->
+                <div class="max-w-[528px] mt-4 mx-auto">
+                  <p class="text-[#c4cff5]">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                    aliquam,purus sit amet luctus magna fringilla urna
+                  </p>
+                </div>
+                <div class="max-[479px]: p-8 md:p-12 lg:p-16"></div>
+              </div>
+            </div>
+            <!-- SVG ICON -->
+            <img
+              src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836f_Group%2047928.svg"
+              alt="Integrations Image"
+              class="z-[2] w-full h-full mix-blend-screen object-cover relative inline-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

@@ -1,11 +1,13 @@
 <template>
-  <section
+  <!-- HEADER -->
+  <header
     class="max-[991px]:bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] w-screen max-w-[100vw] border-b border-solid border-b-[#d9d9d90d] flex-col flex fixed top-0 left-0 right-0 bottom-auto z-[1000] bg-[rgb(221,_221,_221)] py-6 lg:py-9 px-5 md:px-10"
     style="background-color: rgba(221, 221, 221, 0)"
   >
     <div
       class="w-full max-w-7xl auto-cols-auto justify-stretch items-center mx-auto grid gap-0 grid-cols-[auto_max-content] lg:grid-cols-[176px_auto]"
     >
+      <!-- LOGO -->
       <a
         href="https://elevateai-live.webflow.io/"
         class="max-[767px]: max-[991px]:mr-auto w-full max-w-[144px] float-left text-[#333333] relative"
@@ -16,35 +18,42 @@
           class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
         />
       </a>
+      <!-- MENU -->
       <nav
         class="max-[991px]:hidden max-[991px]:text-left max-[991px]:bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] max-[991px]:flex-col max-[991px]: flex float-right relative items-end lg:items-center [@media(max-width:1065px)]:gap-6 gap-0 lg:gap-11 max-[991px]:pt-8 max-[991px]:pb-16 justify-end lg:justify-end"
       >
+        <!-- MENU ITEM -->
         <a
           href="https://elevateai-live.webflow.io/pricing"
           class="max-[991px]:block text-white uppercase font-bold transition hover:text-[#7a3eb4] hover:outline-0 max-[767px]:px-5 max-[991px]:pt-8 max-[991px]:px-10 text-base lg:text-sm"
           >Pricing</a
         >
+        <!-- MENU ITEM -->
         <a
           href="https://elevateai-live.webflow.io/about-us"
           class="max-[991px]:block text-white uppercase font-bold transition hover:text-[#7a3eb4] hover:outline-0 max-[767px]:px-5 max-[991px]:pt-8 max-[991px]:px-10 text-base lg:text-sm"
           >About Us</a
         >
+        <!-- MENU ITEM -->
         <a
           href="https://elevateai-live.webflow.io/contact"
           class="max-[991px]:block text-white uppercase font-bold transition hover:text-[#7a3eb4] hover:outline-0 max-[767px]:px-5 max-[991px]:pt-8 max-[991px]:px-10 text-base lg:text-sm"
           >Contact</a
         >
+        <!-- MENU ITEM -->
         <a
           href="https://elevateai-live.webflow.io/sign-up"
           class="max-[991px]:block text-white uppercase font-bold transition hover:text-[#7a3eb4] hover:outline-0 max-[767px]:px-5 max-[991px]:pt-8 max-[991px]:px-10 text-base lg:text-sm"
           >Sign Up</a
         >
+        <!-- MENU ITEM -->
         <a
           href="https://webflow.com/made-in-webflow/website/elevateai-live"
           target="_blank"
           class="max-[991px]:block text-white uppercase font-bold transition hover:text-[#7a3eb4] hover:outline-0 max-[767px]:px-5 max-[991px]:pt-8 max-[991px]:px-10 text-base lg:text-sm"
           >Clone template</a
         >
+        <!-- BUTTON -->
         <a
           href="https://www.flowspark.co/"
           target="_blank"
@@ -82,5 +91,5 @@
         </div>
       </div>
     </div>
-  </section>
+  </header>
 </template>
