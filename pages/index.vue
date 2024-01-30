@@ -88,7 +88,7 @@
         </div>
       </header>
       <div
-        class="max-[767px]:h-auto max-[991px]:h-auto h-[1700px] overflow-visible"
+        class="max-[767px]:h-auto max-[991px]:h-auto h-[1300px] overflow-visible"
       >
         <div class="max-[991px]:top-[0%] sticky top-[20vh] overflow-hidden">
           <div class="max-[767px]:pl-5 max-[767px]:pr-5 pl-10 pr-10">
@@ -128,11 +128,7 @@
                     class="max-[991px]:flex-col gap-8 flex-row flex w-full lg:w-[300%]"
                   >
                     <div
-                      class="sticky top-0 max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8"
-                      style="
-                        will-change: background;
-                        background-color: rgba(57, 38, 128, 0.647);
-                      "
+                      class="max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8"
                     >
                       <div class="flex-col items-start flex gap-6 sm:gap-8">
                         <img
@@ -145,7 +141,7 @@
                         </h3>
                       </div>
                       <div
-                        class="max-[479px]:flex-col flex gap-4 sm:gap-24 mt-8 sm:mt-12 lg:mt-16 items-start md:items-end"
+                        class="max-[479px]:flex-col flex gap-4 sm:gap-[6.25rem] mt-8 sm:mt-12 lg:mt-[68px] items-start md:items-end"
                       >
                         <p class="font-bold text-xl md:text-2xl">01</p>
                         <p class="text-sm">
@@ -156,67 +152,59 @@
                       </div>
                     </div>
                     <div
-                      class="sticky top-0 flex max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8"
-                      style="
-                        will-change: background, transform;
-                        background-color: rgba(71, 44, 181, 0.3);
-                        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                          rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-                          skew(0deg, 0deg);
-                        transform-style: preserve-3d;
-                      "
+                      class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none"
                     >
-                      <div class="flex-col items-start flex gap-6 sm:gap-8">
-                        <img
-                          src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38366_Vector.svg"
-                          alt="Features Icon 2"
-                          class="h-8 inline-block"
-                        />
-                        <h3 class="font-bold text-base md:text-2xl">
-                          Customer Segmentation
-                        </h3>
-                      </div>
                       <div
-                        class="max-[479px]:flex-col flex gap-4 sm:gap-24 mt-8 sm:mt-12 lg:mt-16 items-start md:items-end"
+                        class="absolute flex max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
+                        :style="{ right: CustomerSizeComputed }"
                       >
-                        <p class="font-bold text-xl md:text-2xl">02</p>
-                        <p class="text-sm">
-                          Demystify your audience with our AI-enhanced customer
-                          segmentation, enabling you to connect deeper and
-                          resonate better.
-                        </p>
+                        <div class="flex-col items-start flex gap-6 sm:gap-8">
+                          <img
+                            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38366_Vector.svg"
+                            alt="Features Icon 2"
+                            class="h-8 inline-block"
+                          />
+                          <h3 class="font-bold text-base md:text-2xl">
+                            Customer Segmentation
+                          </h3>
+                        </div>
+                        <div
+                          class="max-[479px]:flex-col flex gap-4 sm:gap-[6.25rem] mt-8 sm:mt-12 lg:mt-[68px] items-start md:items-end"
+                        >
+                          <p class="font-bold text-xl md:text-2xl">02</p>
+                          <p class="text-sm">
+                            Demystify your audience with our AI-enhanced
+                            customer segmentation, enabling you to connect
+                            deeper and resonate better.
+                          </p>
+                        </div>
                       </div>
                     </div>
-                    <div
-                      class="sticky top-0 max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8"
-                      style="
-                        will-change: background, transform;
-                        background-color: rgba(71, 44, 181, 0.3);
-                        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                          rotateX(0deg) rotateY(0deg) rotateZ(0deg)
-                          skew(0deg, 0deg);
-                        transform-style: preserve-3d;
-                      "
-                    >
-                      <div class="flex-col items-start flex gap-6 sm:gap-8">
-                        <img
-                          src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836d_Vector%20(3).svg"
-                          alt="Features Icon 3"
-                          class="h-8 inline-block"
-                        />
-                        <h3 class="font-bold text-base md:text-2xl">
-                          Insightful&nbsp;Actions
-                        </h3>
-                      </div>
+                    <div class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none">
                       <div
-                        class="max-[479px]:flex-col flex gap-4 sm:gap-24 mt-8 sm:mt-12 lg:mt-16 items-start md:items-end"
+                        class="absolute max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
+                        :style="{ right: InsightSizeComputed }"
                       >
-                        <p class="font-bold text-xl md:text-2xl">03</p>
-                        <p class="text-sm">
-                          Empower your decisions with our AI-driven predictive
-                          analytics, foreseeing market trends that keep you a
-                          step ahead.
-                        </p>
+                        <div class="flex-col items-start flex gap-6 sm:gap-8">
+                          <img
+                            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836d_Vector%20(3).svg"
+                            alt="Features Icon 3"
+                            class="h-8 inline-block"
+                          />
+                          <h3 class="font-bold text-base md:text-2xl">
+                            Insightful&nbsp;Actions
+                          </h3>
+                        </div>
+                        <div
+                          class="max-[479px]:flex-col flex gap-4 sm:gap-[6.25rem] mt-8 sm:mt-12 lg:mt-[68px] items-start md:items-end"
+                        >
+                          <p class="font-bold text-xl md:text-2xl">03</p>
+                          <p class="text-sm">
+                            Empower your decisions with our AI-driven predictive
+                            analytics, foreseeing market trends that keep you a
+                            step ahead.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </section>
@@ -587,11 +575,29 @@
 </template>
 
 <script>
+import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Header.vue";
 
+const customerSize = ref(0);
+const insightSize = ref(0);
+
 export default {
+  setup() {
+    const CustomerSizeComputed = computed(() => {
+      return customerSize.value + "px";
+    });
+
+    const InsightSizeComputed = computed(() => {
+      return insightSize.value + "px";
+    });
+
+    return {
+      CustomerSizeComputed,
+      InsightSizeComputed,
+    };
+  },
   components: {
     Header,
   },
@@ -600,6 +606,33 @@ export default {
     AOS.init({
       once: true,
     });
+    window.addEventListener("scroll", this.handleScroll);
+
+    this.$once("hook:beforeDestroy", () => {
+      window.removeEventListener("scroll", this.handleScroll);
+    });
+  },
+  methods: {
+    handleScroll() {
+      console.log(window.scrollY);
+      // if (window.scrollY > 715 && window.scrollY < 1120)
+      //   customerSize.value = window.scrollY - 715;
+      // if (window.scrollY > 715 && window.scrollY < 1120)
+      customerSize.value = window.scrollY - 715;
+      insightSize.value = window.scrollY - 715;
+      if (customerSize.value < 0)
+        customerSize.value = 0;
+      else if (customerSize.value > 400)
+        customerSize.value = 400;
+
+      if (insightSize.value < 0)
+        insightSize.value = 0;
+      else if (insightSize.value > 800)
+        insightSize.value = 800;
+
+      this.CustomerSizeComputed;
+      this.InsightSizeComputed;
+    },
   },
 };
 </script>
