@@ -180,7 +180,9 @@
                         </div>
                       </div>
                     </div>
-                    <div class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none">
+                    <div
+                      class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none"
+                    >
                       <div
                         class="absolute max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
                         :style="{ right: InsightSizeComputed }"
@@ -221,12 +223,6 @@
       >
         <div
           class="max-w-[704px] text-center flex-col items-center mx-auto flex"
-          style="
-            transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-              rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-            transform-style: preserve-3d;
-            opacity: 1;
-          "
         >
           <h2
             class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
@@ -242,28 +238,12 @@
             <div class="max-[767px]:p-5 max-[991px]:p-6 w-full pt-8"></div>
           </div>
         </div>
-        <div
-          class="relative"
-          style="
-            transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-              rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-            transform-style: preserve-3d;
-            opacity: 1;
-          "
-        >
+        <div class="relative">
           <div
             class="[flex-flow:row] mt-6 flex relative overflow-hidden grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center sm:justify-between md:justify-items-stretch gap-5 md:gap-4"
           >
             <div class="flex-row flex translate-x-0">
-              <div
-                class="flex-none flex"
-                style="
-                  transform: translate3d(-68.122%, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                  will-change: transform;
-                "
-              >
+              <div class="flex-none flex animate-infinite-left-scroll">
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
                 >
@@ -332,13 +312,7 @@
                 </div>
               </div>
               <div
-                class="flex-none flex"
-                style="
-                  transform: translate3d(-68.122%, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                  will-change: transform;
-                "
+                class="flex-none flex animate-infinite-left-scroll"
               >
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
@@ -414,13 +388,7 @@
           >
             <div class="flex-row-reverse flex translate-x-0">
               <div
-                class="flex-none flex"
-                style="
-                  will-change: transform;
-                  transform: translate3d(57.623%, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "
+                class="flex-none flex animate-infinite-right-scroll"
               >
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
@@ -490,13 +458,7 @@
                 </div>
               </div>
               <div
-                class="flex-none flex"
-                style="
-                  will-change: transform;
-                  transform: translate3d(57.623%, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "
+                class="flex-none flex animate-infinite-right-scroll"
               >
                 <div
                   class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
@@ -620,15 +582,11 @@ export default {
       // if (window.scrollY > 715 && window.scrollY < 1120)
       customerSize.value = window.scrollY - 715;
       insightSize.value = window.scrollY - 715;
-      if (customerSize.value < 0)
-        customerSize.value = 0;
-      else if (customerSize.value > 400)
-        customerSize.value = 400;
+      if (customerSize.value < 0) customerSize.value = 0;
+      else if (customerSize.value > 400) customerSize.value = 400;
 
-      if (insightSize.value < 0)
-        insightSize.value = 0;
-      else if (insightSize.value > 800)
-        insightSize.value = 800;
+      if (insightSize.value < 0) insightSize.value = 0;
+      else if (insightSize.value > 800) insightSize.value = 800;
 
       this.CustomerSizeComputed;
       this.InsightSizeComputed;
