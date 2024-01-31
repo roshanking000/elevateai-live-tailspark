@@ -127,6 +127,7 @@
                   </section>
                   <section
                     class="max-[991px]:flex-col gap-8 flex-row flex w-full lg:w-[300%]"
+                    x-data="{ CustomerPosition: (window.pageYOffset > 730 && window.pageYOffset < 1130) ? window.pageYOffset - 730 : window.pageYOffset > 1130 ? 400 : 0, InsightfulPosition: (window.pageYOffset > 730 && window.pageYOffset < 1530) ? window.pageYOffset - 730 : window.pageYOffset > 1530 ? 800 : 0 }"
                   >
                     <!-- Predictive Analytics Component -->
                     <div
@@ -159,7 +160,13 @@
                     >
                       <div
                         class="absolute flex max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
-                        :style="{ right: CustomerSizeComputed }"
+                        x-init="
+                            window.addEventListener('scroll', () => {
+                              if (window.pageYOffset > 730 && window.pageYOffset < 1130)
+                                CustomerPosition = window.pageYOffset - 730;
+                            });
+                        "
+                        x-bind:style="{ transform: 'translateX(' + -CustomerPosition + 'px)' }"
                       >
                         <div class="flex-col items-start flex gap-6 sm:gap-8">
                           <img
@@ -189,7 +196,13 @@
                     >
                       <div
                         class="absolute max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
-                        :style="{ right: InsightSizeComputed }"
+                        x-init="
+                            window.addEventListener('scroll', () => {
+                              if (window.pageYOffset > 730 && window.pageYOffset < 1530)
+                                InsightfulPosition = window.pageYOffset - 730;
+                            });
+                        "
+                        x-bind:style="{ transform: 'translateX(' + -InsightfulPosition + 'px)' }"
                       >
                         <div class="flex-col items-start flex gap-6 sm:gap-8">
                           <img
@@ -750,29 +763,11 @@
 </template>
 
 <script>
-import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Header from "./Header.vue";
 
-const customerSize = ref(0);
-const insightSize = ref(0);
-
 export default {
-  setup() {
-    const CustomerSizeComputed = computed(() => {
-      return customerSize.value + "px";
-    });
-
-    const InsightSizeComputed = computed(() => {
-      return insightSize.value + "px";
-    });
-
-    return {
-      CustomerSizeComputed,
-      InsightSizeComputed,
-    };
-  },
   components: {
     Header,
   },
@@ -781,29 +776,6 @@ export default {
     AOS.init({
       once: true,
     });
-    window.addEventListener("scroll", this.handleScroll);
-
-    this.$once("hook:beforeDestroy", () => {
-      window.removeEventListener("scroll", this.handleScroll);
-    });
-  },
-  methods: {
-    handleScroll() {
-      console.log(window.scrollY);
-      // if (window.scrollY > 715 && window.scrollY < 1120)
-      //   customerSize.value = window.scrollY - 715;
-      // if (window.scrollY > 715 && window.scrollY < 1120)
-      customerSize.value = window.scrollY - 715;
-      insightSize.value = window.scrollY - 715;
-      if (customerSize.value < 0) customerSize.value = 0;
-      else if (customerSize.value > 400) customerSize.value = 400;
-
-      if (insightSize.value < 0) insightSize.value = 0;
-      else if (insightSize.value > 800) insightSize.value = 800;
-
-      this.CustomerSizeComputed;
-      this.InsightSizeComputed;
-    },
   },
 };
 </script>
