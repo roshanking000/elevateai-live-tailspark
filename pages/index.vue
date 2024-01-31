@@ -1,5 +1,5 @@
 <template>
-  <div style="background-color: rgb(15, 13, 31)">
+  <div class="bg-[#0f0d1f]">
     <!-- Header -->
     <header class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] px-5 py-9 md:px-10 lg:bg-[rgba(221,_221,_221,_0)]">
       <div class="flex w-full max-w-7xl items-center justify-between mx-auto">
@@ -9,7 +9,7 @@
           <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg" alt="" class="hidden md:block" />
         </a>
         <!-- Navbar Menu -->
-        <nav class="hidden items-center gap-8 lg:flex lg:gap-10">
+        <nav class="hidden items-center gap-8 lg:flex lg:gap-8">
           <!-- Menu Item -->
           <a href="https://elevateai-live.webflow.io/pricing" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Pricing</a>
           <!-- Menu Item -->
@@ -20,9 +20,10 @@
           <a href="https://elevateai-live.webflow.io/sign-up" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Sign Up</a>
           <!-- Menu Item -->
           <a href="https://webflow.com/made-in-webflow/website/elevateai-live" target="_blank" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Clone template</a>
-          <!-- BUTTON -->
+          <!-- Button -->
           <a href="https://www.flowspark.co/" target="_blank" class="rounded-2xl border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-5 text-center font-semibold text-white transition hover:border-[#792cb5] hover:bg-[#792CB524]">Unlimited Webflow Dev</a>
         </nav>
+        <!-- Hamberger Menu -->
         <div class="relative block cursor-pointer select-none text-2xl text-white lg:hidden lg:p-[18px]">
           <div>
             <svg width="1.25rem" height="1rem" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="overflow-hidden">
@@ -35,82 +36,31 @@
       </div>
     </header>
     <main class="text-white bg-[#00000000] bg-none bg-auto relative block">
-      <!-- Hero Container -->
-      <section
-        class="max-[479px]:bg-[100%_100%] max-[767px]:bg-[100%_100%] max-[767px]:bg-contain font-normal relative block"
-      >
-        <div
-          class="max-[767px]:pl-5 max-[767px]:pr-5 pl-10 pr-10"
-          style="background-color: rgb(15, 13, 31)"
-        >
-          <div class="w-full max-w-7xl ml-auto mr-auto">
-            <div
-              class="max-[479px]:pb-40 max-[767px]:pt-40 max-[767px]:pb-48 max-[991px]:pt-48 max-[991px]:pb-48 pt-60 pb-[22rem]"
-            >
-              <section
-                class="z-10 w-full max-w-[952px] gap-6 flex-col flex"
-                data-aos="fade-up"
-                data-aos-duration="700"
-              >
-                <!-- TITLE -->
-                <h1
-                  class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-4xl md:text-6xl"
-                >
-                  ElevateAI: Propel Your Marketing with the Power of AI
-                </h1>
-                <!-- CONTENT -->
-                <div class="max-w-[640px]">
-                  <p class="text-[#c4cff5]">
-                    Unleash AI to drive your marketing growth. Welcome to
-                    ElevateAI - where we convert raw data into strategic power.
-                  </p>
-                </div>
-                <!-- BUTTON -->
-                <div class="max-[479px]: max-[767px]:m-5 mt-6 lg:mt-8">
-                  <a
-                    color="primary"
-                    href="#"
-                    class="p-[1.4px] relative overflow-hidden max-w-full inline-block rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] hover:outline-0"
-                  >
-                    <div
-                      class="text-center bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] justify-center items-center px-6 py-5 flex rounded-2xl bg-[#0f0d1f]"
-                    >
-                      <p
-                        class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] text-transparent bg-clip-text font-bold"
-                      >
-                        Elevate Your Business
-                      </p>
-                    </div>
-                    <div
-                      class="w-10 h-10 bg-[#c4cff5] filter blur-[60px] absolute top-0 left-0 right-auto bottom-auto"
-                    ></div>
-                  </a>
-                </div>
-              </section>
-            </div>
+      <!-- Hero Section -->
+      <section class="relative mx-auto max-w-7xl px-5 py-40 font-normal md:px-10 lg:pb-[22rem] lg:pt-60">
+        <div class="z-10 flex w-full max-w-[952px] flex-col gap-6" data-aos="fade-up" data-aos-duration="700">
+          <!-- Hero Title -->
+          <h1 class="bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text text-4xl font-bold text-transparent md:text-6xl">ElevateAI: Propel Your Marketing with the Power of AI</h1>
+          <!-- Hero Content -->
+          <div class="max-w-[640px]">
+            <p class="text-[#c4cff5]">Unleash AI to drive your marketing growth. Welcome to ElevateAI - where we convert raw data into strategic power.</p>
+          </div>
+          <!-- Button -->
+          <div class="mt-6">
+            <a color="primary" href="#" class="relative inline-block overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px] hover:outline-0">
+              <div class="flex items-center justify-center rounded-2xl bg-[#0f0d1f] bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center">
+                <p class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent">Elevate Your Business</p>
+              </div>
+              <div class="absolute bottom-auto left-0 right-auto top-0 h-10 w-10 bg-[#c4cff5] blur-[60px] filter"></div>
+            </a>
           </div>
         </div>
-        <!-- SVG ICON -->
-        <div
-          class="max-[479px]:max-w-[62rem] max-[479px]:top-[25.1rem] max-[479px]:-right-[16.1rem] w-full max-w-[65rem] mix-blend-overlay absolute top-[28.6rem] left-auto -right-[17rem]"
-        >
-          <img
-            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a0031d900156f1e7e851cc_hero-globe.svg"
-            loading="eager"
-            alt="Background Sphere"
-            class="object-contain relative max-[767px]:object-cover max-[767px]:absolute w-full h-full inset-[0%] max-w-full inline-block"
-          />
+        <div class="absolute -right-[272px] top-[402px] w-full max-w-[992px] mix-blend-overlay sm:top-[458px] sm:max-w-[1040px]">
+          <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a0031d900156f1e7e851cc_hero-globe.svg" alt="Background Sphere" class="relative inset-0 h-full w-full object-cover md:object-contain" style="visibility: visible;" />
         </div>
-        <div
-          class="max-[767px]:w-72 max-[767px]:bottom-[0%] max-[767px]:right-[0%] pointer-events-none absolute top-[auto] left-[auto] right-[10%] bottom-[-53%]"
-        >
-          <div class="w-full filter blur-[300px] mix-blend-color-dodge">
-            <img
-              src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
-              loading="lazy"
-              alt=""
-              class="object-contain relative max-[767px]:object-cover max-[767px]:absolute w-full h-full inset-[0%] max-w-full inline-block"
-            />
+        <div class="pointer-events-none absolute bottom-0 right-0 top-auto md:bottom-0 md:right-0">
+          <div class="w-full mix-blend-color-dodge blur-[400px] filter">
+            <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg" alt="" class="absolute inset-0 h-full w-full object-cover md:relative md:object-contain" />
           </div>
         </div>
       </section>
