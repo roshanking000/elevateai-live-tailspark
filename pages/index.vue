@@ -1,10 +1,39 @@
 <template>
-  <div class="overflow-clip" style="background-color: rgb(15, 13, 31)">
-    <div
-      class="block fixed top-[0%] left-[0%] right-[auto] bottom-[auto]"
-    ></div>
-    <!-- HEADER -->
-    <Header />
+  <div style="background-color: rgb(15, 13, 31)">
+    <!-- Header -->
+    <header class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] px-5 py-9 md:px-10 lg:bg-[rgba(221,_221,_221,_0)]">
+      <div class="flex w-full max-w-7xl items-center justify-between mx-auto">
+        <!-- Container -->
+        <!-- Logo -->
+        <a href="https://elevateai-live.webflow.io/" class="relative text-[#333333]">
+          <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg" alt="" class="hidden md:block" />
+        </a>
+        <!-- Navbar Menu -->
+        <nav class="hidden items-center gap-8 lg:flex lg:gap-10">
+          <!-- Menu Item -->
+          <a href="https://elevateai-live.webflow.io/pricing" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Pricing</a>
+          <!-- Menu Item -->
+          <a href="https://elevateai-live.webflow.io/about-us" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">About Us</a>
+          <!-- Menu Item -->
+          <a href="https://elevateai-live.webflow.io/contact" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Contact</a>
+          <!-- Menu Item -->
+          <a href="https://elevateai-live.webflow.io/sign-up" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Sign Up</a>
+          <!-- Menu Item -->
+          <a href="https://webflow.com/made-in-webflow/website/elevateai-live" target="_blank" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Clone template</a>
+          <!-- BUTTON -->
+          <a href="https://www.flowspark.co/" target="_blank" class="rounded-2xl border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-5 text-center font-semibold text-white transition hover:border-[#792cb5] hover:bg-[#792CB524]">Unlimited Webflow Dev</a>
+        </nav>
+        <div class="relative block cursor-pointer select-none text-2xl text-white lg:hidden lg:p-[18px]">
+          <div>
+            <svg width="1.25rem" height="1rem" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="overflow-hidden">
+              <path d="M19 7H1C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9H19C19.5523 9 20 8.55228 20 8C20 7.44772 19.5523 7 19 7Z" fill="currentColor"></path>
+              <path d="M19 0H7C6.44772 0 6 0.447715 6 1C6 1.55228 6.44772 2 7 2H19C19.5523 2 20 1.55228 20 1C20 0.447715 19.5523 0 19 0Z" fill="currentColor"></path>
+              <path d="M19 14H11C10.4477 14 10 14.4477 10 15C10 15.5523 10.4477 16 11 16H19C19.5523 16 20 15.5523 20 15C20 14.4477 19.5523 14 19 14Z" fill="currentColor"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
     <main class="text-white bg-[#00000000] bg-none bg-auto relative block">
       <!-- Hero Container -->
       <section
@@ -765,13 +794,8 @@
 <script>
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Header from "./Header.vue";
 
 export default {
-  components: {
-    Header,
-  },
-
   mounted() {
     AOS.init({
       once: true,
