@@ -297,345 +297,154 @@
           </div>
         </div>
       </section>
-      <!-- SECTION Trusted -->
-      <section
-        class="py-12 md:py-16 lg:py-20 bg-[#0f0d1f]"
-        data-aos="fade-up"
-        data-aos-duration="700"
-      >
-        <div
-          class="max-w-[704px] text-center flex-col items-center mx-auto flex"
-        >
-          <!-- TITLE -->
-          <h2
-            class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
-          >
-            Trusted by Thousands
-          </h2>
-          <div class="max-[991px]: p-4"></div>
-          <!-- CONTENT -->
-          <div class="max-w-[640px]">
-            <p class="text-[#c4cff5]">
-              ElevateAI's AI-centric solutions have enabled businesses to scale
-              greater heights. Here's what they have to say...
-            </p>
-            <div class="max-[767px]:p-5 max-[991px]:p-6 w-full pt-8"></div>
-          </div>
+      <!-- Trusted Section -->
+      <section class="bg-[#0f0d1f] py-12 md:py-16 lg:py-20" data-aos="fade-up" data-aos-duration="700">
+        <div class="mx-auto flex max-w-[704px] flex-col items-center text-center">
+          <!-- Title -->
+          <h2 class="bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text pb-8 text-3xl font-bold text-transparent md:text-5xl">Trusted by Thousands</h2>
+          <!-- Content -->
+          <p class="pb-8 text-[#c4cff5] max-w-[640px]">ElevateAI's AI-centric solutions have enabled businesses to scale greater heights. <br/>Here's what they have to say...</p>
         </div>
-        <!-- ANIMATION SECTION -->
-        <div class="relative">
-          <div
-            class="[flex-flow:row] mt-6 flex relative overflow-hidden grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center sm:justify-between md:justify-items-stretch gap-5 md:gap-4"
-          >
-            <div class="flex-row flex translate-x-0">
-              <div class="flex-none flex animate-infinite-left-scroll">
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+        <!-- Animation Section -->
+        <div class="relative pb-12">
+          <div class="relative mt-6 flex gap-5 overflow-hidden sm:justify-between">
+            <div class="flex translate-x-0">
+              <div class="animate-infinite-left-scroll flex flex-none">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Jessica Smith</p>
-                      <p class="text-[#5b6280] text-sm">@jessi_smith</p>
+                      <p class="text-sm text-[#5b6280]">@jessi_smith</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Matthew Johnson</p>
-                      <p class="text-[#5b6280] text-sm">@matjohnson</p>
+                      <p class="text-sm text-[#5b6280]">@matjohnson</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Andy Dao</p>
-                      <p class="text-[#5b6280] text-sm">@andydao</p>
+                      <p class="text-sm text-[#5b6280]">@andydao</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
               </div>
-              <div class="flex-none flex animate-infinite-left-scroll">
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+              <div class="animate-infinite-left-scroll flex flex-none">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Jessica Smith</p>
-                      <p class="text-[#5b6280] text-sm">@jessi_smith</p>
+                      <p class="text-sm text-[#5b6280]">@jessi_smith</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Matthew Johnson</p>
-                      <p class="text-[#5b6280] text-sm">@matjohnson</p>
+                      <p class="text-sm text-[#5b6280]">@matjohnson</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Andy Dao</p>
-                      <p class="text-[#5b6280] text-sm">@andydao</p>
+                      <p class="text-sm text-[#5b6280]">@andydao</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            class="[flex-flow:row] mt-6 flex relative overflow-hidden grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center sm:justify-between md:justify-items-stretch gap-5 md:gap-4"
-          >
-            <div class="flex-row-reverse flex translate-x-0">
-              <div class="flex-none flex animate-infinite-right-scroll">
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
-                      <p class="text-[#5b6280] text-sm">@jessi_smith</p>
+          <div class="relative mt-6 flex gap-5 overflow-hidden sm:justify-between md:gap-4">
+            <div class="flex translate-x-0 flex-row-reverse">
+              <div class="animate-infinite-right-scroll flex flex-none">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Jessica Smith</p>
+                      <p class="text-sm text-[#5b6280]">@jessi_smith</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Matthew Johnson</p>
-                      <p class="text-[#5b6280] text-sm">@matjohnson</p>
+                      <p class="text-sm text-[#5b6280]">@matjohnson</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Andy Dao</p>
-                      <p class="text-[#5b6280] text-sm">@andydao</p>
+                      <p class="text-sm text-[#5b6280]">@andydao</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
               </div>
-              <div class="flex-none flex animate-infinite-right-scroll">
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
-                      <p class="text-[#5b6280] text-sm">@jessi_smith</p>
+              <div class="animate-infinite-right-scroll flex flex-none">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836b_Ellipse%201%20(2).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Jessica Smith</p>
+                      <p class="text-sm text-[#5b6280]">@jessi_smith</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38369_Ellipse%201.svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Matthew Johnson</p>
-                      <p class="text-[#5b6280] text-sm">@matjohnson</p>
+                      <p class="text-sm text-[#5b6280]">@matjohnson</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
-                <div
-                  class="max-h-[264px] max-w-[520px] gap-6 bg-[#1d1c3d99] border-[0.5px] border-solid border-[#241a3a] flex-col flex-none grid-cols-[1fr_1.75fr] items-start mr-6 flex rounded-2xl p-8 md:p-10"
-                >
-                  <div class="gap-4 flex-row items-start flex">
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg"
-                      alt=""
-                      class="w-16 h-16 object-cover inline-block rounded-full"
-                    />
-                    <div class="gap-1 flex-col items-start flex">
+                <div class="mr-6 flex max-h-[264px] max-w-[520px] flex-none flex-col gap-6 rounded-2xl border-[0.5px] border-solid border-[#241a3a] bg-[#1d1c3d99] p-8 md:p-10">
+                  <div class="flex flex-row gap-4">
+                    <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836a_Ellipse%201%20(1).svg" alt="" class="inline-block h-16 w-16 rounded-full object-cover" />
+                    <div class="flex flex-col gap-1">
                       <p class="font-bold">Andy Dao</p>
-                      <p class="text-[#5b6280] text-sm">@andydao</p>
+                      <p class="text-sm text-[#5b6280]">@andydao</p>
                     </div>
                   </div>
-                  <p class="text-[#c4cff5]">
-                    I want to express my utmost satisfaction with Elevate AI.
-                    This software has completely transformed the way we analyze
-                    and utilize data in our business. Its user-friendly
-                    interface, powerful features, and exceptional support have
-                    exceeded our expectations.
-                  </p>
+                  <p class="text-[#c4cff5]">I want to express my utmost satisfaction with Elevate AI. This software has completely transformed the way we analyze and utilize data in our business. Its user-friendly interface, powerful features, and exceptional support have exceeded our expectations.</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="max-[767px]:p-6 max-[991px]:p-10 pt-12"></div>
       </section>
-      <!-- SVG ICON -->
-      <div
-        class="max-w-[496px] top-[26%] left-auto max-[767px]:w-72 pointer-events-none absolute bottom-0 md:bottom-0 right-0 md:right-[-31%]"
-      >
-        <div class="w-full filter blur-[300px] mix-blend-color-dodge">
-          <img
-            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
-            alt=""
-            class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
-            style="visibility: visible"
-          />
-        </div>
-      </div>
-      <div
-        class="max-w-[496px] top-0 left-[-16%] max-[767px]:w-72 pointer-events-none absolute bottom-0 md:bottom-0 right-0 md:right-auto"
-      >
-        <div class="w-full filter blur-[300px] mix-blend-color-dodge">
-          <img
-            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
-            alt=""
-            class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
-            style="visibility: visible"
-          />
-        </div>
-      </div>
     </main>
     <!-- SECTION Smooth Process -->
     <section class="relative block">
