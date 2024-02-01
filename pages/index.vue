@@ -1,35 +1,88 @@
 <template>
-  <div class="bg-[#0f0d1f]">
+  <section class="bg-[#0f0d1f]">
     <!-- Header -->
-    <header class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] px-5 py-9 md:px-10 lg:bg-[rgba(221,_221,_221,_0)]">
+    <header
+      class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] px-5 py-9 md:px-10 lg:bg-[rgba(221,_221,_221,_0)]"
+    >
       <div class="flex w-full max-w-7xl items-center justify-between mx-auto">
         <!-- Container -->
         <!-- Logo -->
-        <a href="https://elevateai-live.webflow.io/" class="relative text-[#333333]">
-          <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg" alt="" class="hidden md:block" />
+        <a
+          href="https://elevateai-live.webflow.io/"
+          class="relative text-[#333333]"
+        >
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg"
+            alt=""
+            class="hidden md:block"
+          />
         </a>
         <!-- Navbar Menu -->
         <nav class="hidden items-center gap-8 lg:flex lg:gap-8">
           <!-- Menu Item -->
-          <a href="https://elevateai-live.webflow.io/pricing" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Pricing</a>
+          <a
+            href="https://elevateai-live.webflow.io/pricing"
+            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            >Pricing</a
+          >
           <!-- Menu Item -->
-          <a href="https://elevateai-live.webflow.io/about-us" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">About Us</a>
+          <a
+            href="https://elevateai-live.webflow.io/about-us"
+            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            >About Us</a
+          >
           <!-- Menu Item -->
-          <a href="https://elevateai-live.webflow.io/contact" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Contact</a>
+          <a
+            href="https://elevateai-live.webflow.io/contact"
+            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            >Contact</a
+          >
           <!-- Menu Item -->
-          <a href="https://elevateai-live.webflow.io/sign-up" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Sign Up</a>
+          <a
+            href="https://elevateai-live.webflow.io/sign-up"
+            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            >Sign Up</a
+          >
           <!-- Menu Item -->
-          <a href="https://webflow.com/made-in-webflow/website/elevateai-live" target="_blank" class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0">Clone template</a>
+          <a
+            href="https://webflow.com/made-in-webflow/website/elevateai-live"
+            target="_blank"
+            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            >Clone template</a
+          >
           <!-- Button -->
-          <a href="https://www.flowspark.co/" target="_blank" class="rounded-2xl border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-5 text-center font-semibold text-white transition hover:border-[#792cb5] hover:bg-[#792CB524]">Unlimited Webflow Dev</a>
+          <a
+            href="https://www.flowspark.co/"
+            target="_blank"
+            class="rounded-2xl border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-5 text-center font-semibold text-white transition hover:border-[#792cb5] hover:bg-[#792CB524]"
+            >Unlimited Webflow Dev</a
+          >
         </nav>
         <!-- Hamberger Menu -->
-        <div class="relative block cursor-pointer select-none text-2xl text-white lg:hidden lg:p-[18px]">
+        <div
+          class="relative block cursor-pointer select-none text-2xl text-white lg:hidden lg:p-[18px]"
+        >
           <div>
-            <svg width="1.25rem" height="1rem" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="overflow-hidden">
-              <path d="M19 7H1C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9H19C19.5523 9 20 8.55228 20 8C20 7.44772 19.5523 7 19 7Z" fill="currentColor"></path>
-              <path d="M19 0H7C6.44772 0 6 0.447715 6 1C6 1.55228 6.44772 2 7 2H19C19.5523 2 20 1.55228 20 1C20 0.447715 19.5523 0 19 0Z" fill="currentColor"></path>
-              <path d="M19 14H11C10.4477 14 10 14.4477 10 15C10 15.5523 10.4477 16 11 16H19C19.5523 16 20 15.5523 20 15C20 14.4477 19.5523 14 19 14Z" fill="currentColor"></path>
+            <svg
+              width="1.25rem"
+              height="1rem"
+              viewBox="0 0 20 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="overflow-hidden"
+            >
+              <path
+                d="M19 7H1C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9H19C19.5523 9 20 8.55228 20 8C20 7.44772 19.5523 7 19 7Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M19 0H7C6.44772 0 6 0.447715 6 1C6 1.55228 6.44772 2 7 2H19C19.5523 2 20 1.55228 20 1C20 0.447715 19.5523 0 19 0Z"
+                fill="currentColor"
+              ></path>
+              <path
+                d="M19 14H11C10.4477 14 10 14.4477 10 15C10 15.5523 10.4477 16 11 16H19C19.5523 16 20 15.5523 20 15C20 14.4477 19.5523 14 19 14Z"
+                fill="currentColor"
+              ></path>
             </svg>
           </div>
         </div>
@@ -37,181 +90,213 @@
     </header>
     <main class="text-white bg-[#00000000] bg-none bg-auto relative block">
       <!-- Hero Section -->
-      <section class="relative mx-auto max-w-7xl px-5 py-40 font-normal md:px-10 lg:pb-[22rem] lg:pt-60">
-        <div class="z-10 flex w-full max-w-[952px] flex-col gap-6" data-aos="fade-up" data-aos-duration="700">
+      <section
+        class="relative mx-auto max-w-7xl px-5 py-40 font-normal md:px-10 lg:pb-[22rem] lg:pt-60"
+      >
+        <div
+          class="z-10 flex w-full max-w-[952px] flex-col gap-6"
+          data-aos="fade-up"
+          data-aos-duration="700"
+        >
           <!-- Hero Title -->
-          <h1 class="bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text text-4xl font-bold text-transparent md:text-6xl">ElevateAI: Propel Your Marketing with the Power of AI</h1>
+          <h1
+            class="bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text text-4xl font-bold text-transparent md:text-6xl"
+          >
+            ElevateAI: Propel Your Marketing with the Power of AI
+          </h1>
           <!-- Hero Content -->
           <div class="max-w-[640px]">
-            <p class="text-[#c4cff5]">Unleash AI to drive your marketing growth. Welcome to ElevateAI - where we convert raw data into strategic power.</p>
+            <p class="text-[#c4cff5]">
+              Unleash AI to drive your marketing growth. Welcome to ElevateAI -
+              where we convert raw data into strategic power.
+            </p>
           </div>
           <!-- Button -->
           <div class="mt-6">
-            <a color="primary" href="#" class="relative inline-block overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px] hover:outline-0">
-              <div class="flex items-center justify-center rounded-2xl bg-[#0f0d1f] bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center">
-                <p class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent">Elevate Your Business</p>
+            <a
+              color="primary"
+              href="#"
+              class="relative inline-block overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px] hover:outline-0"
+            >
+              <div
+                class="flex items-center justify-center rounded-2xl bg-[#0f0d1f] bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center"
+              >
+                <p
+                  class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                >
+                  Elevate Your Business
+                </p>
               </div>
-              <div class="absolute bottom-auto left-0 right-auto top-0 h-10 w-10 bg-[#c4cff5] blur-[60px] filter"></div>
+              <div
+                class="absolute bottom-auto left-0 right-auto top-0 h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+              ></div>
             </a>
           </div>
         </div>
-        <div class="absolute -right-[272px] top-[402px] w-full max-w-[992px] mix-blend-overlay sm:top-[458px] sm:max-w-[1040px]">
-          <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a0031d900156f1e7e851cc_hero-globe.svg" alt="Background Sphere" class="relative inset-0 h-full w-full object-cover md:object-contain" style="visibility: visible;" />
+        <!-- Svg Icon -->
+        <div
+          class="absolute -right-[272px] top-[402px] w-full max-w-[992px] mix-blend-overlay sm:top-[458px] sm:max-w-[1040px]"
+        >
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a0031d900156f1e7e851cc_hero-globe.svg"
+            alt="Background Sphere"
+            class="relative inset-0 h-full w-full object-cover md:object-contain"
+            style="visibility: visible"
+          />
         </div>
-        <div class="pointer-events-none absolute bottom-0 right-0 top-auto md:bottom-0 md:right-0">
+        <div
+          class="pointer-events-none absolute bottom-0 right-0 top-auto md:bottom-0 md:right-0"
+        >
           <div class="w-full mix-blend-color-dodge blur-[400px] filter">
-            <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg" alt="" class="absolute inset-0 h-full w-full object-cover md:relative md:object-contain" />
+            <img
+              src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
+              alt=""
+              class="absolute inset-0 h-full w-full object-cover md:relative md:object-contain"
+            />
           </div>
         </div>
       </section>
-      <!-- SECTION Discover -->
-      <div
-        class="max-[767px]:h-auto max-[991px]:h-auto h-[1300px] overflow-visible"
-      >
-        <div class="max-[991px]:top-[0%] sticky top-[20vh] overflow-hidden">
-          <div class="max-[767px]:pl-5 max-[767px]:pr-5 pl-10 pr-10">
-            <div class="w-full max-w-7xl ml-auto mr-auto">
-              <div
-                class="max-[767px]:pt-16 max-[767px]:pb-16 max-[991px]:pt-24 max-[991px]:pb-24 pt-32 pb-32"
-              >
-                <div
-                  class="max-[479px]:gap-20 max-[767px]:items-start max-[991px]:gap-20 max-[991px]:flex-col max-[991px]:grid-rows-[auto_auto] max-[991px]:grid-cols-[1fr] max-[991px]: gap-20 flex-row grid-rows-[auto] grid-cols-[1fr_1fr] auto-cols-[1fr] items-center flex overflow-visible"
+      <!-- Discover Section -->
+      <section class="overflow-visible lg:h-[1300px]">
+        <div class="sticky overflow-hidden lg:top-[20vh]">
+          <div
+            class="px-5 md:px-10 mx-auto w-full max-w-7xl py-32 md:py-16 lg:py-24"
+          >
+            <!-- Container -->
+            <div
+              class="flex flex-col items-center gap-20 overflow-visible lg:flex-row"
+            >
+              <section class="w-full max-w-full flex-none lg:max-w-[560px]">
+                <!-- Discover Title -->
+                <h2
+                  class="text-3xl font-bold md:pb-10 md:text-5xl lg:pb-12 pb-6"
                 >
-                  <section
-                    class="max-[991px]:max-w-full w-full max-w-[560px] flex-none"
-                    data-aos="fade-up"
-                    data-aos-duration="700"
+                  Discover The Unique ElevateAI Difference
+                </h2>
+                <!-- Discover Button -->
+                <a
+                  color="primary"
+                  href="#"
+                  class="relative inline-block max-w-full overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px]"
+                >
+                  <div
+                    class="flex items-center justify-center rounded-2xl bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center"
                   >
-                    <!-- TITLE -->
-                    <h2 class="font-bold text-3xl md:text-5xl">
-                      Discover The Unique ElevateAI Difference
-                    </h2>
-                    <div class="max-[479px]:pb-6 md:pb-10 lg:pb-12"></div>
-                    <!-- BUTTON -->
-                    <a
-                      color="primary"
-                      href="#"
-                      class="p-[1.4px] relative overflow-hidden max-w-full inline-block rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] hover:outline-0"
+                    <p
+                      class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-['Plus_Jakarta_Sans',_sans-serif] font-bold text-transparent"
                     >
-                      <div
-                        class="text-center bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] justify-center items-center px-6 py-5 flex rounded-2xl"
-                      >
-                        <p
-                          class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] text-transparent bg-clip-text font-['Plus_Jakarta_Sans',_sans-serif] font-bold"
-                        >
-                          Unleash the Power of AI
-                        </p>
-                      </div>
-                    </a>
-                  </section>
-                  <section
-                    class="max-[991px]:flex-col gap-8 flex-row flex w-full lg:w-[300%]"
-                    x-data="{ CustomerPosition: (window.pageYOffset > 730 && window.pageYOffset < 1130) ? window.pageYOffset - 730 : window.pageYOffset > 1130 ? 400 : 0, InsightfulPosition: (window.pageYOffset > 730 && window.pageYOffset < 1530) ? window.pageYOffset - 730 : window.pageYOffset > 1530 ? 800 : 0 }"
+                      Unleash the Power of AI
+                    </p>
+                  </div>
+                </a>
+              </section>
+              <div
+                class="flex w-full flex-col gap-8 lg:w-[300%] lg:flex-row bg-[#0f0d1f]"
+                x-data="{ CustomerPosition: (window.pageYOffset > 730 && window.pageYOffset < 1140) ? window.pageYOffset - 730 : window.pageYOffset > 1140 ? 400 : 0, InsightfulPosition: (window.pageYOffset > 730 && window.pageYOffset < 1530) ? window.pageYOffset - 730 : window.pageYOffset > 1530 ? 800 : 0 }"
+              >
+                <!-- Predictive Analytics Component -->
+                <div
+                  class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                >
+                  <div class="flex flex-col items-start gap-6 sm:gap-8">
+                    <!-- Icon -->
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38367_Group%2047.svg"
+                      alt="Features Icon 1"
+                      class="inline-block h-8"
+                    />
+                    <!-- Title -->
+                    <h3 class="text-base font-bold md:text-2xl">
+                      Predictive Analytics
+                    </h3>
+                  </div>
+                  <!-- Content -->
+                  <div
+                    class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
                   >
-                    <!-- Predictive Analytics Component -->
-                    <div
-                      class="max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8"
-                    >
-                      <div class="flex-col items-start flex gap-6 sm:gap-8">
-                        <img
-                          src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38367_Group%2047.svg"
-                          alt="Features Icon 1"
-                          class="h-8 inline-block"
-                        />
-                        <h3 class="font-bold text-base md:text-2xl">
-                          Predictive Analytics
-                        </h3>
-                      </div>
-                      <div
-                        class="max-[479px]:flex-col flex gap-4 sm:gap-[6.25rem] mt-8 sm:mt-12 lg:mt-[68px] items-start md:items-end"
-                      >
-                        <p class="font-bold text-xl md:text-2xl">01</p>
-                        <p class="text-sm">
-                          Empower your decisions with our AI-driven predictive
-                          analytics, foreseeing market trends that keep you a
-                          step ahead.
-                        </p>
-                      </div>
-                    </div>
-                    <!-- Customer Segmentation Component -->
-                    <div
-                      class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none"
-                    >
-                      <div
-                        class="absolute flex max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
-                        x-init="
-                            window.addEventListener('scroll', () => {
-                              if (window.pageYOffset > 730 && window.pageYOffset < 1130)
-                                CustomerPosition = window.pageYOffset - 730;
-                            });
-                        "
-                        x-bind:style="{ transform: 'translateX(' + -CustomerPosition + 'px)' }"
-                      >
-                        <div class="flex-col items-start flex gap-6 sm:gap-8">
-                          <img
-                            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38366_Vector.svg"
-                            alt="Features Icon 2"
-                            class="h-8 inline-block"
-                          />
-                          <h3 class="font-bold text-base md:text-2xl">
-                            Customer Segmentation
-                          </h3>
-                        </div>
-                        <div
-                          class="max-[479px]:flex-col flex gap-4 sm:gap-[6.25rem] mt-8 sm:mt-12 lg:mt-[68px] items-start md:items-end"
-                        >
-                          <p class="font-bold text-xl md:text-2xl">02</p>
-                          <p class="text-sm">
-                            Demystify your audience with our AI-enhanced
-                            customer segmentation, enabling you to connect
-                            deeper and resonate better.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Insightful Actions Component -->
-                    <div
-                      class="relative flex max-[991px]:max-w-none w-full max-w-md flex-col flex-none"
-                    >
-                      <div
-                        class="absolute max-[991px]:max-w-none max-[991px]:bg-[#3323694d] w-full max-w-md bg-[#332369cc] flex-col flex-none justify-between items-start p-8 flex [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] rounded-xl gap-0 lg:gap-8 transition-all ease-in-out duration-100"
-                        x-init="
-                            window.addEventListener('scroll', () => {
-                              if (window.pageYOffset > 730 && window.pageYOffset < 1530)
-                                InsightfulPosition = window.pageYOffset - 730;
-                            });
-                        "
-                        x-bind:style="{ transform: 'translateX(' + -InsightfulPosition + 'px)' }"
-                      >
-                        <div class="flex-col items-start flex gap-6 sm:gap-8">
-                          <img
-                            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836d_Vector%20(3).svg"
-                            alt="Features Icon 3"
-                            class="h-8 inline-block"
-                          />
-                          <h3 class="font-bold text-base md:text-2xl">
-                            Insightful&nbsp;Actions
-                          </h3>
-                        </div>
-                        <div
-                          class="max-[479px]:flex-col flex gap-4 sm:gap-[6.25rem] mt-8 sm:mt-12 lg:mt-[68px] items-start md:items-end"
-                        >
-                          <p class="font-bold text-xl md:text-2xl">03</p>
-                          <p class="text-sm">
-                            Empower your decisions with our AI-driven predictive
-                            analytics, foreseeing market trends that keep you a
-                            step ahead.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
+                    <p class="text-xl font-bold md:text-2xl">01</p>
+                    <p class="text-sm">
+                      Empower your decisions with our AI-driven predictive
+                      analytics, foreseeing market trends that keep you a step
+                      ahead.
+                    </p>
+                  </div>
+                </div>
+                <!-- Customer Segmentation Component -->
+                <div
+                  class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                  x-init="
+                    window.addEventListener('scroll', () => {
+                      if (window.pageYOffset > 730 && window.pageYOffset < 1130)
+                        CustomerPosition = window.pageYOffset - 730;
+                    });
+                  "
+                  x-bind:style="{ transform: 'translateX(' + -CustomerPosition + 'px)' }"
+                >
+                  <div class="flex flex-col items-start gap-6 sm:gap-8">
+                    <!-- Icon -->
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38366_Vector.svg"
+                      alt="Features Icon 2"
+                      class="inline-block h-8"
+                    />
+                    <!-- Title -->
+                    <h3 class="text-base font-bold md:text-2xl">
+                      Customer Segmentation
+                    </h3>
+                  </div>
+                  <!-- Content -->
+                  <div
+                    class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
+                  >
+                    <p class="text-xl font-bold md:text-2xl">02</p>
+                    <p class="text-sm">
+                      Demystify your audience with our AI-enhanced customer
+                      segmentation, enabling you to connect deeper and resonate
+                      better.
+                    </p>
+                  </div>
+                </div>
+                <!-- Insightful Actions Component -->
+                <div
+                  class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                  x-init="
+                    window.addEventListener('scroll', () => {
+                      if (window.pageYOffset > 730 && window.pageYOffset < 1530)
+                        InsightfulPosition = window.pageYOffset - 730;
+                    });
+                  "
+                  x-bind:style="{ transform: 'translateX(' + -InsightfulPosition + 'px)' }"
+                >
+                  <div class="flex flex-col items-start gap-6 sm:gap-8">
+                    <!-- Icon -->
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836d_Vector%20(3).svg"
+                      alt="Features Icon 3"
+                      class="inline-block h-8"
+                    />
+                    <!-- Title -->
+                    <h3 class="text-base font-bold md:text-2xl">
+                      Insightful&nbsp;Actions
+                    </h3>
+                  </div>
+                  <!-- Content -->
+                  <div
+                    class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
+                  >
+                    <p class="text-xl font-bold md:text-2xl">03</p>
+                    <p class="text-sm">
+                      Empower your decisions with our AI-driven predictive
+                      analytics, foreseeing market trends that keep you a step
+                      ahead.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <!-- SECTION Trusted -->
       <section
         class="py-12 md:py-16 lg:py-20 bg-[#0f0d1f]"
@@ -738,7 +823,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </section>
 </template>
 
 <script>
