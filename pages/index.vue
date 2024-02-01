@@ -457,154 +457,69 @@
           </div>
         </div>
       </section>
-    </main>
-    <!-- SECTION Smooth Process -->
-    <section class="relative block">
-      <div class="px-5 md:px-10">
-        <div class="z-10 w-full max-w-7xl mx-auto relative">
-          <div class="py-12 md:py-16 lg:py-20">
-            <div
-              class="max-w-[704px] text-center flex-col items-center mx-auto flex"
-            >
-              <div
-                class="z-[2] text-center relative"
-                data-aos="fade-up"
-                data-aos-duration="700"
-              >
-                <!-- TITLE -->
-                <h2
-                  class="text-transparent bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
-                >
-                  Smooth Process. Transformative Outcomes.
-                </h2>
-              </div>
+      <!-- Process Section -->
+      <section class="relative px-5 md:px-10">
+        <div class="relative z-10 mx-auto w-full max-w-7xl py-12 md:py-16 lg:py-20">
+          <!-- Container -->
+          <div class="mx-auto flex max-w-[704px] flex-col items-center text-center">
+            <div class="relative z-[2] text-center" data-aos="fade-up" data-aos-duration="700">
+              <!-- Title -->
+              <h2 class="bg-[linear-gradient(1deg,_rgba(65,_111,_166,_0.7),_rgb(255,_255,_255)_52%)] bg-clip-text text-3xl font-bold text-transparent md:text-5xl">Smooth Process. Transformative Outcomes.</h2>
             </div>
-            <!-- STEP -->
-            <div
-              class="flex-col justify-center items-center flex relative pt-20"
-            >
-              <div
-                class="max-[767px]:flex-col w-full justify-around flex relative gap-8 md:gap-4"
-              >
-                <!-- Strategy Development STEP -->
-                <a
-                  class="mix-blend-screen bg-[#170e1b] flex-1 flex gap-2 text-[#c4cff5] border border-dashed border-[#28284a80] flex-col items-start px-6 py-7 transition max-[479px]:block align-top text-left relative max-w-full rounded-2xl"
-                  href="#w-tabs-0-data-w-pane-0"
-                  style="border-color: rgb(215, 47, 202)"
-                >
-                  <h3
-                    class="text-white font-bold text-2xl md:text-2xl"
-                    style="color: rgb(215, 47, 202)"
-                  >
-                    Strategy Development
-                  </h3>
-                  <p class="text-sm">
-                    We start by understanding your unique goals and challenges,
-                    laying the foundation for a tailored strategy.
-                  </p>
-                  <div
-                    class="max-[767px]:-bottom-6 aspect-[1_/_1] opacity-80 absolute -bottom-[30px] right-1/2 translate-x-1/2 w-12 md:w-14"
-                  >
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
-                      alt=""
-                      class="w-full h-full object-contain absolute inline-block"
-                      style="opacity: 0"
-                    />
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
-                      alt=""
-                      class="opacity-0 w-full h-full object-contain absolute inline-block"
-                      style="opacity: 1"
-                    />
-                  </div>
-                </a>
-                <!-- Personalized Consultation STEP -->
-                <a
-                  class="gap-2 text-[#c4cff5] mix-blend-screen bg-[#0e101b] border border-solid border-[#28284a80] flex-col flex-1 items-start px-6 py-7 transition flex max-[479px]:block align-top text-left relative max-w-full rounded-2xl"
-                  tabindex="-1"
-                  href="#w-tabs-0-data-w-pane-1"
-                >
-                  <h3 class="text-white font-bold text-2xl md:text-2xl">
-                    Personalized Consultation
-                  </h3>
-                  <p class="text-sm">
-                    We start by understanding your unique goals and challenges,
-                    laying the foundation for a tailored strategy.
-                  </p>
-                  <div
-                    class="max-[767px]:-bottom-6 aspect-[1_/_1] opacity-80 absolute -bottom-[30px] right-1/2 translate-x-1/2 w-12 md:w-14"
-                  >
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
-                      alt=""
-                      class="w-full h-full object-contain absolute inline-block"
-                    />
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
-                      alt=""
-                      class="opacity-0 w-full h-full object-contain absolute inline-block"
-                    />
-                  </div>
-                </a>
-                <!-- Analysis and Reporting STEP -->
-                <a
-                  class="gap-2 text-[#c4cff5] mix-blend-screen bg-[#0e101b] border border-solid border-[#28284a80] flex-col flex-1 items-start px-6 py-7 transition flex max-[479px]:block align-top text-left relative max-w-full rounded-2xl"
-                  tabindex="-1"
-                  href="#w-tabs-0-data-w-pane-2"
-                >
-                  <h3 class="text-white font-bold text-2xl md:text-2xl">
-                    Analysis and Reporting
-                  </h3>
-                  <p class="text-sm">
-                    We start by understanding your unique goals and challenges,
-                    laying the foundation for a tailored strategy.
-                  </p>
-                  <div
-                    class="max-[767px]:-bottom-6 aspect-[1_/_1] opacity-80 absolute -bottom-[30px] right-1/2 translate-x-1/2 w-12 md:w-14"
-                  >
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
-                      alt=""
-                      class="w-full h-full object-contain absolute inline-block"
-                    />
-                    <img
-                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
-                      alt=""
-                      class="opacity-0 w-full h-full object-contain absolute inline-block"
-                    />
-                  </div>
-                </a>
-              </div>
-              <!-- IMAGE -->
-              <div class="w-full mt-16 block relative overflow-hidden">
-                <div class="min-w-[0%] block relative">
-                  <img
-                    alt="App preview"
-                    src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836e_Frame%2048323%20(2).png"
-                    class="max-[479px]:p-2 max-[991px]:p-4 w-full mix-blend-screen bg-[#472cb51a] px-8 inline-block rounded-2xl pt-8 pb-12"
-                    style="visibility: visible"
-                  />
+          </div>
+          <!-- Process -->
+          <div class="relative flex flex-col items-center justify-center pt-20">
+            <div class="relative flex w-full flex-col justify-around gap-8 md:flex-row md:gap-4">
+              <!-- Strategy Development Process -->
+              <a class="relative flex max-w-full flex-1 flex-col gap-2 rounded-2xl border border-dashed border-[#28284a80] bg-[#170e1b] p-6 text-[#c4cff5] mix-blend-screen transition" href="#w-tabs-0-data-w-pane-0" style="border-color: rgb(215, 47, 202)">
+                <!-- Title -->
+                <h3 class="text-2xl font-bold text-white md:text-2xl" style="color: rgb(215, 47, 202)">Strategy Development</h3>
+                <!-- Content -->
+                <p class="text-sm">We start by understanding your unique goals and challenges, laying the foundation for a tailored strategy.</p>
+                <div class="absolute -bottom-6 right-1/2 aspect-[1_/_1] w-12 translate-x-1/2 opacity-80 md:-bottom-[30px] md:w-14">
+                  <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg" alt="" class="h-full w-full opacity-0">
+                  <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg" alt="" class="h-full w-full opacity-100">
                 </div>
+              </a>
+              <!-- Personalized Consultation Process -->
+              <a class="relative flex max-w-full flex-1 flex-col gap-2 rounded-2xl border border-solid border-[#28284a80] bg-[#0e101b] p-6 text-[#c4cff5] mix-blend-screen transition" href="#w-tabs-0-data-w-pane-1">
+                <!-- Title -->
+                <h3 class="text-2xl font-bold text-white md:text-2xl">Personalized Consultation</h3>
+                <!-- Content -->
+                <p class="text-sm">We start by understanding your unique goals and challenges, laying the foundation for a tailored strategy.</p>
+                <div class="absolute -bottom-6 right-1/2 aspect-[1_/_1] w-12 translate-x-1/2 opacity-80 md:-bottom-[30px] md:w-14">
+                  <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg" alt="" class="absolute h-full w-full">
+                  <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg" alt="" class="absolute h-full w-full opacity-0">
+                </div>
+              </a>
+              <!-- Analysis and Reporting Process -->
+              <a class="relative flex max-w-full flex-1 flex-col gap-2 rounded-2xl border border-solid border-[#28284a80] bg-[#0e101b] p-6 text-[#c4cff5] mix-blend-screen transition" href="#w-tabs-0-data-w-pane-2">
+                <!-- Title -->
+                <h3 class="text-2xl font-bold text-white md:text-2xl">Analysis and Reporting</h3>
+                <!-- Content -->
+                <p class="text-sm">We start by understanding your unique goals and challenges, laying the foundation for a tailored strategy.</p>
+                <div class="absolute -bottom-6 right-1/2 aspect-[1_/_1] w-12 translate-x-1/2 opacity-80 md:-bottom-[30px] md:w-14">
+                  <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg" alt="" class="absolute h-full w-full">
+                  <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg" alt="" class="absolute h-full w-full opacity-0">
+                </div>
+              </a>
+            </div>
+            <!-- Image -->
+            <div class="relative mt-16 block w-full overflow-hidden">
+              <div class="relative block min-w-[0%]">
+                <img alt="App preview" src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836e_Frame%2048323%20(2).png" class="w-full rounded-2xl bg-[#472cb51a] p-2 mix-blend-screen md:p-4 lg:px-8 lg:pb-12 lg:pt-8" style="visibility: visible">
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- SVG ICON -->
-      <div
-        class="max-w-[560px] top-auto left-[8%] pointer-events-none absolute w-72 md:w-full bottom-0 md:bottom-[-30%] right-0 md:right-auto"
-      >
-        <div class="w-full filter blur-[300px] mix-blend-color-dodge">
-          <img
-            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
-            alt=""
-            class="relative max-[767px]:absolute w-full h-full inset-0 inline-block object-cover md:object-contain"
-            style="visibility: visible"
-          />
+        <!-- SVG ICON -->
+        <div class="pointer-events-none absolute bottom-0 left-[8%] right-0 top-auto w-72 max-w-[560px] md:bottom-[-30%] md:right-auto md:w-full">
+          <div class="w-full mix-blend-color-dodge blur-[300px] filter">
+            <img src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg" alt="" style="visibility: visible">
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <!-- SECTION Merge -->
     <section class="relative block">
       <div class="px-5 md:px-10">
