@@ -2,9 +2,12 @@
   <section class="bg-[#0f0d1f]">
     <!-- Header -->
     <header
-      class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] px-5 py-9 md:px-10 lg:bg-[rgba(221,_221,_221,_0)]"
+      class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] lg:bg-[rgba(221,_221,_221,_0)]"
+      x-data="{isOpen: false}"
     >
-      <div class="flex w-full max-w-7xl items-center justify-between mx-auto">
+      <div
+        class="flex w-full max-w-7xl items-center justify-between mx-auto px-5 py-9 md:px-10"
+      >
         <!-- Container -->
         <!-- Logo -->
         <a
@@ -14,7 +17,6 @@
           <img
             src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg"
             alt=""
-            class="hidden md:block"
           />
         </a>
         <!-- Navbar Menu -->
@@ -61,6 +63,7 @@
         <!-- Hamberger Menu -->
         <div
           class="relative block cursor-pointer select-none text-2xl text-white lg:hidden lg:p-[18px]"
+          x-on:click.prevent="isOpen = !isOpen"
         >
           <div>
             <svg
@@ -86,6 +89,28 @@
             </svg>
           </div>
         </div>
+      </div>
+      <div class="relative">
+        <nav
+          class="opacity-0 absolute left-0 top-0 flex flex-col gap-8 w-full bg-[#000000e0] pb-16 pt-8 sm:px-10 px-5 text-base font-bold uppercase text-white no-underline"
+          x-bind:class="isOpen ? 'show opacity-100' : 'hidden'"
+        >
+          <a href="https://elevateai-live.webflow.io/pricing">Pricing</a>
+          <a href="https://elevateai-live.webflow.io/about-us">About Us</a>
+          <a href="https://elevateai-live.webflow.io/contact">Contact</a>
+          <a href="https://elevateai-live.webflow.io/sign-up">Sign Up</a>
+          <a
+            href="https://webflow.com/made-in-webflow/website/elevateai-live"
+            target="_blank"
+            >Clone template</a
+          >
+          <a
+            href="https://www.flowspark.co/"
+            target="_blank"
+            class="w-fit cursor-pointer rounded-[18px] border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-[1.3rem] text-center font-semibold no-underline"
+            >Unlimited Webflow Dev</a
+          >
+        </nav>
       </div>
     </header>
     <main class="text-white bg-auto overflow-clip">
