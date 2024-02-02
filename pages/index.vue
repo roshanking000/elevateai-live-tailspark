@@ -798,46 +798,46 @@
           </div>
         </div>
       </section>
-    </main>
-    <!-- SECTION Merge -->
-    <section class="relative block">
-      <div class="px-5 md:px-10">
-        <div class="z-10 w-full max-w-7xl mx-auto relative">
-          <div
-            class="py-12 md:py-16 lg:py-20"
-            data-aos="fade-up"
-            data-aos-duration="700"
-          >
+      <!-- Merge Section -->
+      <section class="relative block">
+        <div class="">
+          <div class="z-10 w-full max-w-7xl mx-auto relative px-5 md:px-10">
+            <!-- Container -->
             <div
-              class="max-w-[704px] text-center flex-col items-center mx-auto flex"
+              class="py-12 md:py-16 lg:py-20"
+              data-aos="fade-up"
+              data-aos-duration="700"
             >
-              <div class="z-[2] text-center relative">
-                <!-- TITLE -->
-                <h2
-                  class="max-[991px]:bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] text-transparent bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
-                >
-                  Merge with Your Existing Tech&nbsp;Environment
-                </h2>
-                <!-- CONTENT -->
-                <div class="max-w-[528px] mt-4 mx-auto">
-                  <p class="text-[#c4cff5]">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                    aliquam,purus sit amet luctus magna fringilla urna
-                  </p>
+              <div
+                class="max-w-[704px] text-center flex-col items-center mx-auto flex"
+              >
+                <div class="z-[2] text-center relative">
+                  <!-- Title -->
+                  <h2
+                    class="bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] text-transparent lg:bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-3xl md:text-5xl"
+                  >
+                    Merge with Your Existing Tech&nbsp;Environment
+                  </h2>
+                  <!-- Content -->
+                  <div class="max-w-[528px] mt-4 mx-auto">
+                    <p class="text-[#c4cff5] pb-8 sm:pb-12 lg:pb-16">
+                      Lorem ipsum dolor sit amet consectetur adipiscing elit ut
+                      aliquam,purus sit amet luctus magna fringilla urna
+                    </p>
+                  </div>
                 </div>
-                <div class="max-[479px]: p-8 md:p-12 lg:p-16"></div>
               </div>
+              <!-- Image -->
+              <img
+                src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836f_Group%2047928.svg"
+                alt="Integrations Image"
+                class="z-[2] w-full h-full mix-blend-screen object-cover relative inline-block"
+              />
             </div>
-            <!-- SVG ICON -->
-            <img
-              src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836f_Group%2047928.svg"
-              alt="Integrations Image"
-              class="z-[2] w-full h-full mix-blend-screen object-cover relative inline-block"
-            />
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </section>
 </template>
 
