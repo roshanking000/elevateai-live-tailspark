@@ -908,15 +908,21 @@
                   </p>
                 </div>
                 <!-- Button -->
-                <div
-                  class="flex max-w-full items-center justify-center overflow-hidden !bg-[radial-gradient(circle_at_50%_50%,_rgb(62,_33,_97)_51%,_rgb(84,_45,_125)_94%)] p-5 text-center no-underline rounded-2xl"
+                <a
+                  color="secondary"
+                  href="#"
+                  class="rounded-[1.125rem] p-[1.4px] no-underline relative overflow-hidden max-w-full inline-block bg-[#00000000] bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)]"
                 >
-                  <p
-                    class="font-['Plus_Jakarta_Sans',_sans-serif] bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                  <div
+                    class="flex max-w-full items-center justify-center overflow-hidden !bg-[radial-gradient(circle_at_50%_50%,_rgb(62,_33,_97)_51%,_rgb(84,_45,_125)_94%)] p-5 text-center no-underline rounded-2xl"
                   >
-                    Try Basecamp
-                  </p>
-                </div>
+                    <p
+                      class="font-['Plus_Jakarta_Sans',_sans-serif] bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                    >
+                      Try Basecamp
+                    </p>
+                  </div>
+                </a>
               </div>
               <!-- Pricing Info -->
               <div class="flex w-full flex-col px-6 pt-9 pb-16">
@@ -1066,15 +1072,21 @@
                     For Accelerating Teams
                   </p>
                 </div>
-                <div
-                  class="flex max-w-full items-center justify-center overflow-hidden !bg-[radial-gradient(circle_at_50%_50%,_rgb(62,_33,_97)_51%,_rgb(84,_45,_125)_94%)] p-5 text-center no-underline rounded-2xl"
+                <a
+                  color="secondary"
+                  href="#"
+                  class="rounded-[1.125rem] p-[1.4px] no-underline relative overflow-hidden max-w-full inline-block bg-[#00000000] bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)]"
                 >
-                  <p
-                    class="font-['Plus_Jakarta_Sans',_sans-serif] bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                  <div
+                    class="flex max-w-full items-center justify-center overflow-hidden !bg-[radial-gradient(circle_at_50%_50%,_rgb(62,_33,_97)_51%,_rgb(84,_45,_125)_94%)] p-5 text-center no-underline rounded-2xl"
                   >
-                    Try Accelerate
-                  </p>
-                </div>
+                    <p
+                      class="font-['Plus_Jakarta_Sans',_sans-serif] bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                    >
+                      Try Accelerate
+                    </p>
+                  </div>
+                </a>
               </div>
               <div class="flex w-full flex-col px-6 pt-9 pb-16">
                 <div class="mt-3 flex flex-row items-center gap-4">
@@ -1219,15 +1231,21 @@
                     For Growing Teams
                   </p>
                 </div>
-                <div
-                  class="flex max-w-full items-center justify-center overflow-hidden !bg-[radial-gradient(circle_at_50%_50%,_rgb(62,_33,_97)_51%,_rgb(84,_45,_125)_94%)] p-5 text-center no-underline rounded-2xl"
+                <a
+                  color="secondary"
+                  href="#"
+                  class="rounded-[1.125rem] p-[1.4px] no-underline relative overflow-hidden max-w-full inline-block bg-[#00000000] bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)]"
                 >
-                  <p
-                    class="font-['Plus_Jakarta_Sans',_sans-serif] bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                  <div
+                    class="flex max-w-full items-center justify-center overflow-hidden !bg-[radial-gradient(circle_at_50%_50%,_rgb(62,_33,_97)_51%,_rgb(84,_45,_125)_94%)] p-5 text-center no-underline rounded-2xl"
                   >
-                    Try Growth
-                  </p>
-                </div>
+                    <p
+                      class="font-['Plus_Jakarta_Sans',_sans-serif] bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
+                    >
+                      Try Growth
+                    </p>
+                  </div>
+                </a>
               </div>
               <div class="flex w-full flex-col px-6 pt-9 pb-16">
                 <div class="mt-3 flex flex-row items-center gap-4">
@@ -1352,6 +1370,116 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- ElevateAI Section -->
+      <section class="relative">
+        <div
+          class="absolute left-1/2 top-[264px] w-full max-w-5xl -translate-x-1/2"
+        >
+          <!-- Image -->
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a15d606b079c71934006cc_globe-svg-2.svg"
+            width="1028"
+            height="1028"
+            alt=""
+            class="absolute inset-0 inline-block h-full w-full object-cover md:relative md:object-contain"
+            style="visibility: visible"
+          />
+        </div>
+        <!-- Container -->
+        <div
+          class="relative z-10 mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20"
+        >
+          <!-- Component -->
+          <div
+            class="mx-auto flex max-w-[704px] flex-col items-center text-center"
+          >
+            <div
+              class="relative z-[2] text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+            >
+              <!-- Title -->
+              <h2
+                class="bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] bg-clip-text font-bold text-transparent md:text-5xl lg:bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] text-3xl pb-6"
+              >
+                ElevateAI in Action
+              </h2>
+              <!-- Content -->
+              <p class="text-xl text-[#c4cff5] md:pb-16 lg:pb-24 pb-12">
+                Explore real-life instances of how ElevateAI has reshaped
+                businesses with pioneering, AI-driven marketing strategies.
+                Discover what we can do for you.
+              </p>
+            </div>
+          </div>
+          <!-- Image -->
+          <img
+            class="relative z-[2] inline-block h-full w-full object-cover mix-blend-normal"
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3835f_Elevate%20AI%20in%20Action.png"
+            alt="Dashboard Image"
+          />
+        </div>
+        <div
+          class="pointer-events-none absolute left-auto top-auto max-w-[1168px] mix-blend-color-dodge blur-[190px] filter bottom-0 md:bottom-[-18%] right-0 md:right-[-37%] w-72 md:w-full"
+        >
+          <!-- Image -->
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a134f3b87ad4b42cef600a_svg-decor-2.svg"
+            width="1176"
+            height="1169"
+            alt=""
+            class="md:relative inset-0 inline-block h-full w-full absolute object-cover md:object-contain"
+            style="visibility: visible"
+          />
+        </div>
+      </section>
+      <!-- Lightning Section -->
+      <section class="bg-[#0f0d1f] px-5 md:px-10">
+        <!-- Container -->
+        <div class="mx-auto w-full max-w-7xl px-4 py-24 lg:py-40">
+          <div
+            class="relative z-[2] text-center"
+            data-aos="fade-up"
+            data-aos-duration="700"
+          >
+            <div class="mx-auto max-w-[720px] p-10">
+              <!-- Title -->
+              <h2
+                class="w-full bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] bg-clip-text p-12 text-3xl font-bold text-transparent md:text-5xl lg:bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)]"
+              >
+                Lightning Fast Webflow Dev&nbsp;Made Easy
+              </h2>
+              <!-- Content -->
+              <p class="text-xl text-[#c4cff5]">
+                Say goodbye to sluggish workflows! Our toolkit is engineered for
+                speed, making every step of your Webflow development process
+                lightning-fast.
+              </p>
+            </div>
+            <!-- Button -->
+            <a
+              color="secondary"
+              href="#"
+              class="relative inline-block max-w-full overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)] p-[1.4px]"
+            >
+              <div
+                class="flex items-center justify-center rounded-2xl bg-[radial-gradient(circle,_rgb(45,_18,_65)_56%,_rgb(53,_21,_77))] p-5 text-center"
+              >
+                <p
+                  class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-['Plus_Jakarta_Sans',_sans-serif] font-bold text-transparent"
+                >
+                  Get Started
+                </p>
+              </div>
+              <div
+                class="absolute bottom-auto left-0 right-auto top-0 h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+              ></div>
+            </a>
+            <div class="p-4"></div>
+            <p class="text-[#c4cff5]">No credit card required.</p>
           </div>
         </div>
       </section>
