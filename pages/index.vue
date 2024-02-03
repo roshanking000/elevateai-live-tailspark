@@ -1484,15 +1484,18 @@
         </div>
       </section>
     </main>
+    <!-- Footer Section -->
     <footer class="block">
       <div class="px-5 md:px-10">
         <div class="relative z-[1] mx-auto w-full max-w-7xl">
+          <!-- Container -->
           <div class="py-16 md:py-24 lg:pb-[3.75rem] lg:pt-[7.5rem]">
             <div
               class="flex grid-cols-[auto] flex-col justify-between gap-6 sm:grid-cols-2 sm:gap-8 md:grid-cols-[max-content_auto_auto_auto_auto] lg:flex-row lg:gap-10"
             >
               <div class="mr-0 flex max-w-[22.5rem] flex-col gap-8 lg:mr-10">
                 <div class="flex flex-col gap-6">
+                  <!-- Logo -->
                   <a
                     href="https://www.flowspark.co/"
                     class="inline-block w-full max-w-[13rem] bg-[#00000000]"
@@ -1504,14 +1507,17 @@
                       class="relative inset-[0%] inline-block h-full w-full max-w-full object-cover md:object-contain"
                     />
                   </a>
+                  <!-- Content -->
                   <p class="text-[#c4cff5]">
                     Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit
                     amet luctus
                   </p>
                 </div>
+                <!-- Community Section -->
                 <div
                   class="mb-8 flex w-full max-w-[13rem] items-center gap-4 lg:mb-0 lg:mt-12"
                 >
+                  <!-- Facebook -->
                   <a
                     href="#"
                     class="mx-auto flex h-6 w-6 max-w-full flex-col items-center justify-center bg-[#00000000] text-[#6b658e]"
@@ -1533,6 +1539,7 @@
                       ></path>
                     </svg>
                   </a>
+                  <!-- Instagram -->
                   <a
                     href="#"
                     class="mx-auto flex h-6 w-6 max-w-full flex-col items-center justify-center bg-[#00000000] text-[#6b658e]"
@@ -1558,6 +1565,7 @@
                       ></path>
                     </svg>
                   </a>
+                  <!-- Slack -->
                   <a
                     href="#"
                     class="mx-auto flex h-6 w-6 max-w-full flex-col items-center justify-center bg-[#00000000] text-[#6b658e]"
@@ -1579,6 +1587,7 @@
                       ></path>
                     </svg>
                   </a>
+                  <!-- Twitter -->
                   <a
                     href="#"
                     class="mx-auto flex h-6 w-6 max-w-full flex-col items-center justify-center bg-[#00000000] text-[#6b658e]"
@@ -1602,9 +1611,11 @@
                   </a>
                 </div>
               </div>
+              <!-- Footer Menu -->
               <div
                 class="md:flex gap-[7.5rem] grid max-[767px]:grid-cols-[1fr_1fr] bg-[#00000000] text-sm font-medium text-[#635e81] no-underline [transition:color_0.25s_ease_0s]"
               >
+                <!-- Solution Menu Item -->
                 <div class="flex flex-col gap-7 font-semibold no-underline">
                   <p class="text-[#c4cff5] text-base mr-4 my-4">Solution</p>
                   <a href="#">Marketing</a>
@@ -1612,6 +1623,7 @@
                   <a href="#">Commerce</a>
                   <a href="#">Insights</a>
                 </div>
+                <!-- Support Menu Item -->
                 <div class="flex flex-col gap-7 font-semibold no-underline">
                   <p class="text-[#c4cff5] text-base mr-4 my-4">Support</p>
                   <a
@@ -1635,6 +1647,7 @@
                     >API&nbsp;Status</a
                   >
                 </div>
+                <!-- Docs Menu Item -->
                 <div class="flex flex-col gap-7 font-semibold no-underline">
                   <p class="text-[#c4cff5] text-base mr-4 my-4">Docs</p>
                   <a
@@ -1658,6 +1671,7 @@
                     >Dev Guide</a
                   >
                 </div>
+                <!-- Company Menu Item -->
                 <div class="flex flex-col gap-7 font-semibold no-underline">
                   <p class="text-[#c4cff5] text-base mr-4 my-4">Company</p>
                   <a
@@ -1691,13 +1705,16 @@
             <div
               class="mb-0 lg:mt-[6.25rem] w-full border-b-[1.7px] border-solid border-b-[#241a3a] mt-16"
             ></div>
+            <!-- NewsLetter Section -->
             <div
               class="flex lg:flex-row justify-between pb-[3.75rem] pt-[3.75rem] flex-col lg:gap-0 gap-8"
             >
               <div class="flex flex-col items-start gap-2 text-[#c4cff5]">
+                <!-- Title -->
                 <h5 class="md:text-xl font-bold leading-normal text-base">
                   Join our newsletter
                 </h5>
+                <!-- Content -->
                 <p class="text-sm">Keep up to date with everything ElavateAI</p>
               </div>
               <div class="mb-[15px] w-full max-w-[25rem]">
@@ -1714,12 +1731,13 @@
                     id="email-5"
                     required=""
                   />
-                  <input
+                  <!-- Button -->
+                  <button
                     type="submit"
-                    data-wait="Please wait..."
-                    class="absolute bottom-[0%] left-[auto] right-[0%] top-[0%] m-0 inline-block cursor-pointer rounded-none border border-solid border-[#7536ab] bg-[radial-gradient(circle,_rgb(52,_28,_80)_47%,_rgb(61,_30,_94))] px-6 py-[0.6rem] text-center font-semibold text-white no-underline [appearance:button]"
-                    value="Join"
-                  />
+                    class="absolute bottom-[0%] left-[auto] right-[0%] top-[0%] m-0 inline-block rounded-none border border-solid border-[#7536ab] bg-[radial-gradient(circle,_rgb(52,_28,_80)_47%,_rgb(61,_30,_94))] px-6 py-[0.6rem] text-center font-semibold text-white no-underline [appearance:button]"
+                  >
+                    Join
+                  </button>
                 </form>
                 <div
                   class="hidden bg-[#dddddd] p-5 text-center"
@@ -1747,6 +1765,7 @@
             <div
               class="flex md:flex-row md:items-center justify-between pt-[1.875rem] flex-col items-start md:gap-0 gap-8"
             >
+              <!-- Copyright -->
               <p class="text-[#635e81] mb-0">
                 © Copyright 2021. All rights reserved.
               </p>
