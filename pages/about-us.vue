@@ -5,10 +5,10 @@
       class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] lg:bg-[rgba(221,_221,_221,_0)]"
       x-data="{isOpen: false}"
     >
+      <!-- Container -->
       <div
         class="flex w-full max-w-7xl items-center justify-between mx-auto py-9"
       >
-        <!-- Container -->
         <!-- Logo -->
         <a href="/" class="relative text-[#333333]">
           <img
