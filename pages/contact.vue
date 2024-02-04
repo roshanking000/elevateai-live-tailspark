@@ -6,7 +6,7 @@
       x-data="{isOpen: false}"
     >
       <div
-        class="flex w-full max-w-7xl items-center justify-between mx-auto px-5 py-9 md:px-10"
+        class="flex w-full max-w-7xl items-center justify-between mx-auto py-9"
       >
         <!-- Container -->
         <!-- Logo -->
@@ -92,10 +92,10 @@
           class="opacity-0 absolute left-0 top-0 flex flex-col gap-8 w-full bg-[#000000e0] pb-16 pt-8 sm:px-10 px-5 text-base font-bold uppercase text-white no-underline"
           x-bind:class="isOpen ? 'show opacity-100' : 'hidden'"
         >
-          <a href="https://elevateai-live.webflow.io/pricing">Pricing</a>
-          <a href="https://elevateai-live.webflow.io/about-us">About Us</a>
-          <a href="https://elevateai-live.webflow.io/contact">Contact</a>
-          <a href="https://elevateai-live.webflow.io/sign-up">Sign Up</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/about-us">About Us</a>
+          <a href="/contact">Contact</a>
+          <a href="/sign-up">Sign Up</a>
           <a
             href="https://webflow.com/made-in-webflow/website/elevateai-live"
             target="_blank"
@@ -126,7 +126,7 @@
             style="visibility: visible"
           />
         </div>
-        <div class="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-10">
+        <div class="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-10" data-aos="fade-up" data-aos-duration="700">
           <!-- Container -->
           <div class="pb-20 pt-40 md:pt-48 lg:pb-20 lg:pt-60">
             <div

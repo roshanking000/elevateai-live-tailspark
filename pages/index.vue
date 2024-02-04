@@ -6,14 +6,11 @@
       x-data="{isOpen: false}"
     >
       <div
-        class="flex w-full max-w-7xl items-center justify-between mx-auto px-5 py-9 md:px-10"
+        class="flex w-full max-w-7xl items-center justify-between mx-auto py-9"
       >
         <!-- Container -->
         <!-- Logo -->
-        <a
-          href="/"
-          class="relative text-[#333333]"
-        >
+        <a href="/" class="relative text-[#333333]">
           <img
             src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg"
             alt=""
@@ -95,10 +92,10 @@
           class="opacity-0 absolute left-0 top-0 flex flex-col gap-8 w-full bg-[#000000e0] pb-16 pt-8 sm:px-10 px-5 text-base font-bold uppercase text-white no-underline"
           x-bind:class="isOpen ? 'show opacity-100' : 'hidden'"
         >
-          <a href="https://elevateai-live.webflow.io/pricing">Pricing</a>
-          <a href="https://elevateai-live.webflow.io/about-us">About Us</a>
-          <a href="https://elevateai-live.webflow.io/contact">Contact</a>
-          <a href="https://elevateai-live.webflow.io/sign-up">Sign Up</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/about-us">About Us</a>
+          <a href="/contact">Contact</a>
+          <a href="/sign-up">Sign Up</a>
           <a
             href="https://webflow.com/made-in-webflow/website/elevateai-live"
             target="_blank"
@@ -654,7 +651,10 @@
         </div>
       </section>
       <!-- Process Section -->
-      <section class="relative px-5 md:px-10">
+      <section
+        class="relative px-5 md:px-10"
+        x-data="{process: 'Strategy Development'}"
+      >
         <div
           class="relative z-10 mx-auto w-full max-w-7xl py-12 md:py-16 lg:py-20"
         >
@@ -681,15 +681,15 @@
               class="relative flex w-full flex-col justify-around gap-8 md:flex-row md:gap-4"
             >
               <!-- Strategy Development Process -->
-              <a
-                class="relative flex max-w-full flex-1 flex-col gap-2 rounded-2xl border border-dashed border-[#28284a80] bg-[#170e1b] p-6 text-[#c4cff5] mix-blend-screen transition"
-                href="#w-tabs-0-data-w-pane-0"
-                style="border-color: rgb(215, 47, 202)"
+              <div
+                class="relative cursor-pointer flex max-w-full flex-1 flex-col gap-2 rounded-2xl border p-6 text-[#c4cff5] mix-blend-screen transition"
+                x-bind:class="process == 'Strategy Development' ? 'border-dashed border-[#d72fca] bg-[#170e1b]' : 'border-solid border-[#28284a80] bg-[#0e101b]'"
+                x-on:click.prevent="process = 'Strategy Development'"
               >
                 <!-- Title -->
                 <h3
-                  class="text-2xl font-bold text-white md:text-2xl"
-                  style="color: rgb(215, 47, 202)"
+                  class="text-2xl font-bold md:text-2xl"
+                  x-bind:class="process == 'Strategy Development' ? 'text-[#d72fca]' : 'text-white'"
                 >
                   Strategy Development
                 </h3>
@@ -705,21 +705,27 @@
                     src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
                     alt=""
                     class="h-full w-full opacity-0"
+                    x-bind:class="process == 'Strategy Development' ? 'opacity-0 hidden' : 'opacity-100'"
                   />
                   <img
                     src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
                     alt=""
-                    class="h-full w-full opacity-100"
+                    class="h-full w-full opacity-0"
+                    x-bind:class="process == 'Strategy Development' ? 'opacity-100' : 'opacity-0 hidden'"
                   />
                 </div>
-              </a>
+              </div>
               <!-- Personalized Consultation Process -->
-              <a
-                class="relative flex max-w-full flex-1 flex-col gap-2 rounded-2xl border border-solid border-[#28284a80] bg-[#0e101b] p-6 text-[#c4cff5] mix-blend-screen transition"
-                href="#w-tabs-0-data-w-pane-1"
+              <div
+                class="relative cursor-pointer flex max-w-full flex-1 flex-col gap-2 rounded-2xl border p-6 text-[#c4cff5] mix-blend-screen transition"
+                x-bind:class="process == 'Personalized Consultation' ? 'border-dashed border-[#d72fca] bg-[#170e1b]' : 'border-solid border-[#28284a80] bg-[#0e101b]'"
+                x-on:click.prevent="process = 'Personalized Consultation'"
               >
                 <!-- Title -->
-                <h3 class="text-2xl font-bold text-white md:text-2xl">
+                <h3
+                  class="text-2xl font-bold md:text-2xl"
+                  x-bind:class="process == 'Personalized Consultation' ? 'text-[#d72fca]' : 'text-white'"
+                >
                   Personalized Consultation
                 </h3>
                 <!-- Content -->
@@ -733,22 +739,27 @@
                   <img
                     src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
                     alt=""
-                    class="absolute h-full w-full"
+                    class="h-full w-full opacity-0"
+                    x-bind:class="process == 'Personalized Consultation' ? 'opacity-0 hidden' : 'opacity-100'"
                   />
                   <img
                     src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
                     alt=""
-                    class="absolute h-full w-full opacity-0"
+                    class="h-full w-full opacity-0"
+                    x-bind:class="process == 'Personalized Consultation' ? 'opacity-100' : 'opacity-0 hidden'"
                   />
                 </div>
-              </a>
+              </div>
               <!-- Analysis and Reporting Process -->
-              <a
-                class="relative flex max-w-full flex-1 flex-col gap-2 rounded-2xl border border-solid border-[#28284a80] bg-[#0e101b] p-6 text-[#c4cff5] mix-blend-screen transition"
-                href="#w-tabs-0-data-w-pane-2"
+              <div
+                class="relative cursor-pointer flex max-w-full flex-1 flex-col gap-2 rounded-2xl border p-6 text-[#c4cff5] mix-blend-screen transition"
+                x-bind:class="process == 'Analysis and Reporting' ? 'border-dashed border-[#d72fca] bg-[#170e1b]' : 'border-solid border-[#28284a80] bg-[#0e101b]'"
+                x-on:click.prevent="process = 'Analysis and Reporting'"
               >
                 <!-- Title -->
-                <h3 class="text-2xl font-bold text-white md:text-2xl">
+                <h3 class="text-2xl font-bold md:text-2xl"
+                  x-bind:class="process == 'Analysis and Reporting' ? 'text-[#d72fca]' : 'text-white'"
+                >
                   Analysis and Reporting
                 </h3>
                 <!-- Content -->
@@ -762,15 +773,17 @@
                   <img
                     src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed0d6a64e79558852a4_tab-circle-decor-inactive.svg"
                     alt=""
-                    class="absolute h-full w-full"
+                    class="absolute h-full w-full opacity-0"
+                    x-bind:class="process == 'Analysis and Reporting' ? 'opacity-0 hidden' : 'opacity-100'"
                   />
                   <img
                     src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a12ed03c12c65f3cf20538_tab-circle-decor.svg"
                     alt=""
                     class="absolute h-full w-full opacity-0"
+                    x-bind:class="process == 'Analysis and Reporting' ? 'opacity-100' : 'opacity-0 hidden'"
                   />
                 </div>
-              </a>
+              </div>
             </div>
             <!-- Image -->
             <div class="relative mt-16 block w-full overflow-hidden">
@@ -789,7 +802,10 @@
         <div
           class="pointer-events-none absolute bottom-0 left-[8%] right-0 top-auto w-72 max-w-[560px] md:bottom-[-30%] md:right-auto md:w-full"
         >
-          <div class="w-full mix-blend-color-dodge blur-[300px] filter">
+          <div
+            class="w-full mix-blend-color-dodge blur-[300px] filter"
+            data-aos="zoom-out"
+          >
             <img
               src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
               alt=""

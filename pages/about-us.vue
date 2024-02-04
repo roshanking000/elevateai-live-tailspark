@@ -6,14 +6,11 @@
       x-data="{isOpen: false}"
     >
       <div
-        class="flex w-full max-w-7xl items-center justify-between mx-auto px-5 py-9 md:px-10"
+        class="flex w-full max-w-7xl items-center justify-between mx-auto py-9"
       >
         <!-- Container -->
         <!-- Logo -->
-        <a
-          href="/"
-          class="relative text-[#333333]"
-        >
+        <a href="/" class="relative text-[#333333]">
           <img
             src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg"
             alt=""
@@ -95,10 +92,10 @@
           class="opacity-0 absolute left-0 top-0 flex flex-col gap-8 w-full bg-[#000000e0] pb-16 pt-8 sm:px-10 px-5 text-base font-bold uppercase text-white no-underline"
           x-bind:class="isOpen ? 'show opacity-100' : 'hidden'"
         >
-          <a href="https://elevateai-live.webflow.io/pricing">Pricing</a>
-          <a href="https://elevateai-live.webflow.io/about-us">About Us</a>
-          <a href="https://elevateai-live.webflow.io/contact">Contact</a>
-          <a href="https://elevateai-live.webflow.io/sign-up">Sign Up</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/about-us">About Us</a>
+          <a href="/contact">Contact</a>
+          <a href="/sign-up">Sign Up</a>
           <a
             href="https://webflow.com/made-in-webflow/website/elevateai-live"
             target="_blank"
@@ -130,11 +127,13 @@
           />
         </div>
         <div
-          class="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center px-5 pb-20 pt-40 text-center md:px-10 md:pt-48 lg:pb-20 lg:pt-60"
+          class="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center text-center"
+          data-aos="fade-up"
+          data-aos-duration="700"
         >
           <!-- Container -->
           <div
-            class="relative z-10 flex flex-col items-center gap-6 text-center md:gap-14 p-28 sm:p-40 lg:p-48"
+            class="relative z-10 flex flex-col items-center gap-6 text-center md:gap-14 p-28 sm:p-40 lg:p-[15rem]"
           >
             <!-- Title -->
             <h1
