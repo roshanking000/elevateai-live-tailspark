@@ -854,7 +854,9 @@
         </div>
       </section>
       <!-- Pricing Section -->
-      <section class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20">
+      <section class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20"
+      x-data="{pricing: 'annually'}"
+      >
         <!-- Container -->
         <div class="flex flex-col items-center text-center">
           <div
@@ -877,24 +879,21 @@
           </div>
           <!-- Period Option -->
           <div class="md:pb-12 lg:pb-16 pb-8">
-            <div
-              class="relative flex cursor-pointer flex-row bg-[#0e101b] mix-blend-screen rounded-xl"
-            >
+            <div class="flex rounded-xl bg-[#0e101b]">
               <!-- Annually Payment -->
-              <div
-                class="relative z-[5] flex flex-col items-center justify-center px-10 py-4"
+              <div class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
+                x-on:click="pricing='annually'"
+                x-bind:class="pricing == 'annually' ? 'border-[#792cb533] bg-[#0e101b] mix-blend-screen text-white' : 'text-[#b3aed2]'"
               >
-                <p class="font-bold text-white">Annually</p>
+                Anually
               </div>
               <!-- Monthly Payment -->
-              <div
-                class="relative z-[5] flex flex-col items-center justify-center px-10 py-4"
+              <div class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
+                x-on:click="pricing='monthly'"
+                x-bind:class="pricing == 'monthly' ? 'border-[#792cb533] bg-[#0e101b] mix-blend-screen text-white' : 'text-[#b3aed2]'"
               >
-                <p class="font-bold text-[#b3aed2]">Monthly</p>
+                Monthly
               </div>
-              <div
-                class="absolute left-2 top-[6px] z-0 h-4/5 w-[45%] border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-md"
-              ></div>
             </div>
           </div>
           <!-- Pricing Component -->
@@ -909,14 +908,17 @@
                 class="flex w-full flex-col gap-10 bg-[#2b285066] px-6 pt-6 pb-8"
               >
                 <div class="flex flex-col items-center justify-center gap-2">
-                  <!-- Header -->
+                  <!-- Title -->
                   <p class="text-xl font-bold md:text-2xl">Basecamp</p>
                   <!-- Price -->
-                  <h2
-                    class="flex flex-row items-center font-bold md:text-5xl text-3xl"
-                  >
-                    $18.99<span class="text-sm">/MO</span>
-                  </h2>
+                  <div class="flex items-center font-bold">
+                    <h2
+                      class="md:text-5xl text-3xl"
+                      x-text="pricing == 'annually' ? '$18.99' : '$14.99'"
+                    >
+                    </h2>
+                    <span class="text-sm">/MO</span>
+                  </div>
                   <p
                     class="bg-[linear-gradient(270deg,_rgb(188,_223,_255),_rgb(255,_236,_215)_47%,_rgb(255,_163,_235))] bg-clip-text font-medium text-transparent"
                   >
@@ -940,7 +942,7 @@
                   </div>
                 </a>
               </div>
-              <!-- Pricing Info -->
+              <!-- Basecamp Info -->
               <div class="flex w-full flex-col px-6 pt-9 pb-16">
                 <div class="mt-3 flex flex-row items-center gap-4">
                   <svg
@@ -1068,6 +1070,7 @@
                 </div>
               </div>
             </div>
+            <!-- Accelerate Component -->
             <div
               class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-2xl"
             >
@@ -1075,19 +1078,24 @@
                 class="flex w-full flex-col gap-10 bg-[#2b285066] px-6 pt-6 pb-8"
               >
                 <div class="flex flex-col items-center justify-center gap-2">
+                  <!-- Title -->
                   <p class="text-xl font-bold md:text-2xl">Accelerate</p>
-                  <h2
-                    class="flex flex-row items-center font-bold md:text-5xl text-3xl"
-                  >
-                    $32.99<span class="text-sm">/MO</span>
-                  </h2>
-
+                  <!-- Price -->
+                  <div class="flex items-center font-bold">
+                    <h2
+                      class="md:text-5xl text-3xl"
+                      x-text="pricing == 'annually' ? '$32.99' : '$28.99'"
+                    >
+                    </h2>
+                    <span class="text-sm">/MO</span>
+                  </div>
                   <p
                     class="bg-[linear-gradient(270deg,_rgb(188,_223,_255),_rgb(255,_236,_215)_47%,_rgb(255,_163,_235))] bg-clip-text font-medium text-transparent"
                   >
                     For Accelerating Teams
                   </p>
                 </div>
+                <!-- Button -->
                 <a
                   color="secondary"
                   href="#"
@@ -1104,6 +1112,7 @@
                   </div>
                 </a>
               </div>
+              <!-- Accelerate Info -->
               <div class="flex w-full flex-col px-6 pt-9 pb-16">
                 <div class="mt-3 flex flex-row items-center gap-4">
                   <svg
@@ -1227,6 +1236,7 @@
                 </div>
               </div>
             </div>
+            <!-- Growth Component -->
             <div
               class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-2xl"
             >
@@ -1234,19 +1244,24 @@
                 class="flex w-full flex-col gap-10 bg-[#2b285066] px-6 pt-6 pb-8"
               >
                 <div class="flex flex-col items-center justify-center gap-2">
+                  <!-- Title -->
                   <p class="text-xl font-bold md:text-2xl">Growth</p>
-                  <h2
-                    class="flex flex-row items-center font-bold md:text-5xl text-3xl"
-                  >
-                    $99<span class="text-sm">/MO</span>
-                  </h2>
-
+                  <!-- Price -->
+                  <div class="flex items-center font-bold">
+                    <h2
+                      class="md:text-5xl text-3xl"
+                      x-text="pricing == 'annually' ? '$99' : '$79'"
+                    >
+                    </h2>
+                    <span class="text-sm">/MO</span>
+                  </div>
                   <p
                     class="bg-[linear-gradient(270deg,_rgb(188,_223,_255),_rgb(255,_236,_215)_47%,_rgb(255,_163,_235))] bg-clip-text font-medium text-transparent"
                   >
                     For Growing Teams
                   </p>
                 </div>
+                <!-- Button -->
                 <a
                   color="secondary"
                   href="#"
@@ -1263,6 +1278,7 @@
                   </div>
                 </a>
               </div>
+              <!-- Growth Info -->
               <div class="flex w-full flex-col px-6 pt-9 pb-16">
                 <div class="mt-3 flex flex-row items-center gap-4">
                   <svg

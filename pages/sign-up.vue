@@ -39,7 +39,7 @@
           <!-- Menu Item -->
           <a
             href="/sign-up"
-            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            class="text-sm font-bold uppercase text-[#7a3eb4] transition hover:text-[#7a3eb4] hover:outline-0"
             >Sign Up</a
           >
           <!-- Menu Item -->

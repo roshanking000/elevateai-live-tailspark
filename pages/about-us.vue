@@ -27,7 +27,7 @@
           <!-- Menu Item -->
           <a
             href="/about-us"
-            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            class="text-sm font-bold uppercase text-[#7a3eb4] transition hover:text-[#7a3eb4] hover:outline-0"
             >About Us</a
           >
           <!-- Menu Item -->

@@ -10,10 +10,7 @@
       >
         <!-- Container -->
         <!-- Logo -->
-        <a
-          href="/"
-          class="relative text-[#333333]"
-        >
+        <a href="/" class="relative text-[#333333]">
           <img
             src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg"
             alt=""
@@ -24,7 +21,7 @@
           <!-- Menu Item -->
           <a
             href="/pricing"
-            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            class="text-sm font-bold uppercase text-[#7a3eb4] transition hover:text-[#7a3eb4] hover:outline-0"
             >Pricing</a
           >
           <!-- Menu Item -->
@@ -129,7 +126,10 @@
             style="visibility: visible"
           />
         </div>
-        <div class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20">
+        <div
+          class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20"
+          x-data="{pricing: 'annually'}"
+        >
           <!-- Container -->
           <div class="flex flex-col items-center text-center">
             <div
@@ -152,24 +152,23 @@
             </div>
             <!-- Period Option -->
             <div class="md:pb-12 lg:pb-16 pb-8">
-              <div
-                class="relative flex cursor-pointer flex-row bg-[#0e101b] mix-blend-screen rounded-xl"
-              >
+              <div class="flex rounded-xl bg-[#0e101b]">
                 <!-- Annually Payment -->
                 <div
-                  class="relative z-[5] flex flex-col items-center justify-center px-10 py-4"
+                  class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
+                  x-on:click="pricing='annually'"
+                  x-bind:class="pricing == 'annually' ? 'border-[#792cb533] bg-[#0e101b] mix-blend-screen text-white' : 'text-[#b3aed2]'"
                 >
-                  <p class="font-bold text-white">Annually</p>
+                  Anually
                 </div>
                 <!-- Monthly Payment -->
                 <div
-                  class="relative z-[5] flex flex-col items-center justify-center px-10 py-4"
+                  class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
+                  x-on:click="pricing='monthly'"
+                  x-bind:class="pricing == 'monthly' ? 'border-[#792cb533] bg-[#0e101b] mix-blend-screen text-white' : 'text-[#b3aed2]'"
                 >
-                  <p class="font-bold text-[#b3aed2]">Monthly</p>
+                  Monthly
                 </div>
-                <div
-                  class="absolute left-2 top-[6px] z-0 h-4/5 w-[45%] border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-md"
-                ></div>
               </div>
             </div>
             <!-- Pricing Component -->
@@ -187,11 +186,13 @@
                     <!-- Header -->
                     <p class="text-xl font-bold md:text-2xl">Basecamp</p>
                     <!-- Price -->
-                    <h2
-                      class="flex flex-row items-center font-bold md:text-5xl text-3xl"
-                    >
-                      $18.99<span class="text-sm">/MO</span>
-                    </h2>
+                    <div class="flex items-center font-bold">
+                      <h2
+                        class="md:text-5xl text-3xl"
+                        x-text="pricing == 'annually' ? '$18.99' : '$14.99'"
+                      ></h2>
+                      <span class="text-sm">/MO</span>
+                    </div>
                     <p
                       class="bg-[linear-gradient(270deg,_rgb(188,_223,_255),_rgb(255,_236,_215)_47%,_rgb(255,_163,_235))] bg-clip-text font-medium text-transparent"
                     >
@@ -353,12 +354,13 @@
                 >
                   <div class="flex flex-col items-center justify-center gap-2">
                     <p class="text-xl font-bold md:text-2xl">Accelerate</p>
-                    <h2
-                      class="flex flex-row items-center font-bold md:text-5xl text-3xl"
-                    >
-                      $32.99<span class="text-sm">/MO</span>
-                    </h2>
-
+                    <div class="flex items-center font-bold">
+                      <h2
+                        class="md:text-5xl text-3xl"
+                        x-text="pricing == 'annually' ? '$32.99' : '$28.99'"
+                      ></h2>
+                      <span class="text-sm">/MO</span>
+                    </div>
                     <p
                       class="bg-[linear-gradient(270deg,_rgb(188,_223,_255),_rgb(255,_236,_215)_47%,_rgb(255,_163,_235))] bg-clip-text font-medium text-transparent"
                     >
@@ -512,12 +514,13 @@
                 >
                   <div class="flex flex-col items-center justify-center gap-2">
                     <p class="text-xl font-bold md:text-2xl">Growth</p>
-                    <h2
-                      class="flex flex-row items-center font-bold md:text-5xl text-3xl"
-                    >
-                      $99<span class="text-sm">/MO</span>
-                    </h2>
-
+                    <div class="flex items-center font-bold">
+                      <h2
+                        class="md:text-5xl text-3xl"
+                        x-text="pricing == 'annually' ? '$99' : '$79'"
+                      ></h2>
+                      <span class="text-sm">/MO</span>
+                    </div>
                     <p
                       class="bg-[linear-gradient(270deg,_rgb(188,_223,_255),_rgb(255,_236,_215)_47%,_rgb(255,_163,_235))] bg-clip-text font-medium text-transparent"
                     >
@@ -668,9 +671,9 @@
         </div>
         <!-- Image -->
         <div
-          class="pointer-events-none absolute bottom-0 left-auto right-0 top-auto md:w-full w-72 md:bottom-0 md:right-0"
+          class="pointer-events-none absolute bottom-[0%] left-[auto] right-[0%] top-[auto]"
         >
-          <div class="w-full mix-blend-color-dodge blur-[800px] filter">
+          <div class="w-full mix-blend-color-dodge blur-[300px] filter">
             <img
               src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
               alt=""

@@ -33,7 +33,7 @@
           <!-- Menu Item -->
           <a
             href="/contact"
-            class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
+            class="text-sm font-bold uppercase text-[#7a3eb4] transition hover:text-[#7a3eb4] hover:outline-0"
             >Contact</a
           >
           <!-- Menu Item -->
