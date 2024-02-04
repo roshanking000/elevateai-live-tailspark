@@ -116,6 +116,19 @@
     <main class="text-white bg-auto overflow-clip pt-[15rem]">
       <!-- Pricing Section -->
       <section class="relative">
+        <!-- Image -->
+        <div
+          class="absolute -bottom-2/4 left-1/2 w-full max-w-5xl -translate-x-1/2"
+        >
+          <img
+            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a15d606b079c71934006cc_globe-svg-2.svg"
+            width="1028"
+            height="1028"
+            alt=""
+            class="absolute inset-0 inline-block h-full w-full object-cover md:relative md:object-contain"
+            style="visibility: visible"
+          />
+        </div>
         <div class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20">
           <!-- Container -->
           <div class="flex flex-col items-center text-center">
@@ -161,11 +174,11 @@
             </div>
             <!-- Pricing Component -->
             <div
-              class="grid w-full grid-cols-1 gap-8 text-white md:grid-cols-3 md:gap-4"
+              class="grid w-full grid-cols-1 gap-8 text-white md:grid-cols-3 md:gap-4 z-10"
             >
               <!-- Basecamp Component -->
               <div
-                class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-2xl"
+                class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0a0a10] mix-blend-screen rounded-2xl"
               >
                 <div
                   class="flex w-full flex-col gap-10 bg-[#2b285066] px-6 pt-6 pb-8"
@@ -203,7 +216,9 @@
                   </a>
                 </div>
                 <!-- Pricing Info -->
-                <div class="flex w-full flex-col px-6 pt-9 pb-16">
+                <div
+                  class="flex w-full flex-col px-6 pt-9 pb-16 bg-transparent"
+                >
                   <div class="mt-3 flex flex-row items-center gap-4">
                     <svg
                       width="25"
@@ -331,7 +346,7 @@
                 </div>
               </div>
               <div
-                class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-2xl"
+                class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0a0a10] mix-blend-screen rounded-2xl"
               >
                 <div
                   class="flex w-full flex-col gap-10 bg-[#2b285066] px-6 pt-6 pb-8"
@@ -490,7 +505,7 @@
                 </div>
               </div>
               <div
-                class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0e101b] mix-blend-screen rounded-2xl"
+                class="mx-auto flex w-full max-w-[416px] flex-col items-center overflow-hidden border border-solid border-[#792cb533] bg-[#0a0a10] mix-blend-screen rounded-2xl"
               >
                 <div
                   class="flex w-full flex-col gap-10 bg-[#2b285066] px-6 pt-6 pb-8"
@@ -651,30 +666,18 @@
             </div>
           </div>
         </div>
+        <!-- Image -->
         <div
-          class="pointer-events-none absolute bottom-0 left-auto right-0 top-auto max-[767px]:w-72 md:bottom-0 md:right-0"
+          class="pointer-events-none absolute bottom-0 left-auto right-0 top-auto md:w-full w-72 md:bottom-0 md:right-0"
         >
-          <div class="w-full mix-blend-color-dodge blur-[300px] filter">
+          <div class="w-full mix-blend-color-dodge blur-[800px] filter">
             <img
               src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a00dd207047d6f84b90ddc_hero-gradient-svg.svg"
               alt=""
-              class="relative inset-0 inline-block h-full w-full object-cover max-[767px]:absolute md:object-contain"
+              class="md:relative inset-0 inline-block h-full w-full object-cover absolute md:object-contain"
               style="visibility: visible"
             />
           </div>
-        </div>
-        <div
-          class="absolute -bottom-2/4 left-1/2 w-full max-w-5xl -translate-x-1/2"
-        >
-          <!-- Image -->
-          <img
-            src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65a15d606b079c71934006cc_globe-svg-2.svg"
-            width="1028"
-            height="1028"
-            alt=""
-            class="absolute inset-0 inline-block h-full w-full object-cover md:relative md:object-contain"
-            style="visibility: visible"
-          />
         </div>
       </section>
       <!-- Lightning Section -->
