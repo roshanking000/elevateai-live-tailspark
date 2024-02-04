@@ -1613,7 +1613,7 @@
               </div>
               <!-- Footer Menu -->
               <div
-                class="md:flex gap-[7.5rem] grid max-[767px]:grid-cols-[1fr_1fr] bg-[#00000000] text-sm font-medium text-[#635e81] no-underline [transition:color_0.25s_ease_0s]"
+                class="md:flex gap-[7.5rem] grid grid-cols-[1fr_1fr] bg-[#00000000] text-sm font-medium text-[#635e81] no-underline [transition:color_0.25s_ease_0s]"
               >
                 <!-- Solution Menu Item -->
                 <div class="flex flex-col gap-7 font-semibold no-underline">

@@ -11,7 +11,7 @@
         <!-- Container -->
         <!-- Logo -->
         <a
-          href="https://elevateai-live.webflow.io/"
+          href="/"
           class="relative text-[#333333]"
         >
           <img
@@ -23,25 +23,25 @@
         <nav class="hidden items-center gap-8 lg:flex lg:gap-8">
           <!-- Menu Item -->
           <a
-            href="https://elevateai-live.webflow.io/pricing"
+            href="/pricing"
             class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
             >Pricing</a
           >
           <!-- Menu Item -->
           <a
-            href="https://elevateai-live.webflow.io/about-us"
+            href="/about-us"
             class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
             >About Us</a
           >
           <!-- Menu Item -->
           <a
-            href="https://elevateai-live.webflow.io/contact"
+            href="/contact"
             class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
             >Contact</a
           >
           <!-- Menu Item -->
           <a
-            href="https://elevateai-live.webflow.io/sign-up"
+            href="/sign-up"
             class="text-sm font-bold uppercase text-white transition hover:text-[#7a3eb4] hover:outline-0"
             >Sign Up</a
           >
@@ -857,7 +857,7 @@
               </div>
               <!-- Footer Menu -->
               <div
-                class="md:flex gap-[7.5rem] grid max-[767px]:grid-cols-[1fr_1fr] bg-[#00000000] text-sm font-medium text-[#635e81] no-underline [transition:color_0.25s_ease_0s]"
+                class="md:flex gap-[7.5rem] grid grid-cols-[1fr_1fr] bg-[#00000000] text-sm font-medium text-[#635e81] no-underline [transition:color_0.25s_ease_0s]"
               >
                 <!-- Solution Menu Item -->
                 <div class="flex flex-col gap-7 font-semibold no-underline">

@@ -10,10 +10,7 @@
       >
         <!-- Container -->
         <!-- Logo -->
-        <a
-          href="/"
-          class="relative text-[#333333]"
-        >
+        <a href="/" class="relative text-[#333333]">
           <img
             src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/659ffd86a0aeacb3785fbfba_elevate-ai-logo.svg"
             alt=""
@@ -114,7 +111,7 @@
       </div>
     </header>
     <main class="text-white bg-auto overflow-clip">
-      <!-- Mission Section -->
+      <!-- Contact Section -->
       <section class="relative">
         <!-- Image -->
         <div
@@ -129,59 +126,211 @@
             style="visibility: visible"
           />
         </div>
-        <div
-          class="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center px-5 pb-20 pt-40 text-center md:px-10 md:pt-48 lg:pb-20 lg:pt-60"
-        >
+        <div class="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-10">
           <!-- Container -->
-          <div
-            class="relative z-10 flex flex-col items-center gap-6 text-center md:gap-14 p-28 sm:p-40 lg:p-48"
-          >
-            <!-- Title -->
-            <h1
-              class="bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)] bg-clip-text text-4xl font-bold text-transparent md:text-6xl lg:bg-[linear-gradient(1deg,_rgb(83,_51,_122),_rgb(255,_255,_255)_52%)]"
-            >
-              Meet ElevateAI
-            </h1>
-            <!-- Content -->
-            <p class="w-full max-w-lg text-[#b3aed2]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
-              purus sit amet luctus venenatis, lectus
-            </p>
-          </div>
-          <div
-            class="lg:grid w-full lg:grid-cols-2 gap-6 flex flex-col-reverse md:gap-10"
-          >
-            <!-- Image -->
+          <div class="pb-20 pt-40 md:pt-48 lg:pb-20 lg:pt-60">
             <div
-              class="relative h-full overflow-hidden rounded-2xl aspect-[16_/_9] w-full"
+              class="relative z-10 mx-auto lg:grid w-full max-w-5xl grid-cols-2 flex-col justify-between gap-12 flex items-center md:gap-20"
             >
-              <img
-                src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65ae47c178ae17b8b49af4ad_mission-img.webp"
-                width="1240"
-                height="956"
-                alt=""
-                class="absolute inset-0 inline-block h-full w-full object-cover md:absolute md:object-cover"
-                style="visibility: visible"
-              />
-            </div>
-            <div
-              class="flex flex-col gap-5 rounded-2xl bg-[#3630714d] lg:p-20 text-[#b1b1b1] mix-blend-screen md:px-10 sm:px-5 sm:py-10"
-            >
-              <!-- Mission Title -->
-              <h2 class="text-3xl font-bold text-white md:text-5xl">
-                Our Mission
-              </h2>
-              <!-- Mission Content -->
-              <p>
-                Aliquet risus feugiat in ante metus. Arcu dui vivamus arcu felis
-                bibendum ut. Vestibulum lorem sed risus ultricies tristique
-                nulla. Vitae et leo duis ut diam quam. Bibendum arcu vitae
-                elementum curabitur vitae nunc. Dictumst vestibulum rhoncus est
-                pellentesque. Lectus proin nibh nisl condimentum id. Ullamcorper
-                dignissim cras tincidunt lobortis feugiat vivamus. <br />
-                <br />Massa id neque aliquam vestibulum morbi blandit. Nulla
-                pellentesque dignissim enim sit amet venenatis.
-              </p>
+              <div class="flex flex-col gap-12">
+                <div class="flex flex-col gap-5">
+                  <!-- Title -->
+                  <h1 class="text-3xl font-bold md:text-5xl">
+                    Let's build something exciting together
+                  </h1>
+                  <!-- Content -->
+                  <p>
+                    Simply reply to this email, and let us know a convenient
+                    time for a brief consultation. We'll gather the necessary
+                    details to create a quote that aligns with your goals.
+                  </p>
+                </div>
+                <div class="flex flex-col gap-6">
+                  <!-- Content -->
+                  <p class="text-sm">
+                    Don't miss out on the opportunity to experience seamless
+                    solutions designed just for you. Let's turn your vision into
+                    reality!
+                  </p>
+                  <!-- Star -->
+                  <div class="flex items-center gap-2 text-[#f7ad1b]">
+                    <div
+                      class="flex h-6 w-6 flex-col items-center justify-center"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 27 27"
+                        fill="none"
+                        preserveAspectRatio="xMidYMid meet"
+                        class="overflow-hidden"
+                      >
+                        <path
+                          d="M15.1774 3.96536L16.8357 7.37406C17.0628 7.84192 17.6701 8.3069 18.1851 8.39244L21.2483 8.94163C23.2098 9.28899 23.6455 10.7168 22.2249 12.114L19.8055 14.4803C19.4016 14.8769 19.1615 15.6614 19.2865 16.215L19.9352 19.1841C20.4449 21.5282 19.195 22.4232 17.1462 21.1776L14.2841 19.4372C13.7629 19.1192 12.9087 19.1167 12.3877 19.4159L9.48894 21.0837C7.41391 22.2756 6.18152 21.3547 6.74523 19.0249L7.46525 16.0767C7.5997 15.5256 7.38798 14.7356 6.99135 14.3316L4.6116 11.9078C3.22332 10.4828 3.6911 9.06597 5.65658 8.76035L8.72542 8.28536C9.24356 8.20092 9.86188 7.76242 10.0954 7.29553L11.8318 3.91921C12.7795 2.10074 14.2824 2.12064 15.1774 3.96536Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      class="flex h-6 w-6 flex-col items-center justify-center"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 27 27"
+                        fill="none"
+                        preserveAspectRatio="xMidYMid meet"
+                        class="overflow-hidden"
+                      >
+                        <path
+                          d="M15.1774 3.96536L16.8357 7.37406C17.0628 7.84192 17.6701 8.3069 18.1851 8.39244L21.2483 8.94163C23.2098 9.28899 23.6455 10.7168 22.2249 12.114L19.8055 14.4803C19.4016 14.8769 19.1615 15.6614 19.2865 16.215L19.9352 19.1841C20.4449 21.5282 19.195 22.4232 17.1462 21.1776L14.2841 19.4372C13.7629 19.1192 12.9087 19.1167 12.3877 19.4159L9.48894 21.0837C7.41391 22.2756 6.18152 21.3547 6.74523 19.0249L7.46525 16.0767C7.5997 15.5256 7.38798 14.7356 6.99135 14.3316L4.6116 11.9078C3.22332 10.4828 3.6911 9.06597 5.65658 8.76035L8.72542 8.28536C9.24356 8.20092 9.86188 7.76242 10.0954 7.29553L11.8318 3.91921C12.7795 2.10074 14.2824 2.12064 15.1774 3.96536Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      class="flex h-6 w-6 flex-col items-center justify-center"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 27 27"
+                        fill="none"
+                        preserveAspectRatio="xMidYMid meet"
+                        class="overflow-hidden"
+                      >
+                        <path
+                          d="M15.1774 3.96536L16.8357 7.37406C17.0628 7.84192 17.6701 8.3069 18.1851 8.39244L21.2483 8.94163C23.2098 9.28899 23.6455 10.7168 22.2249 12.114L19.8055 14.4803C19.4016 14.8769 19.1615 15.6614 19.2865 16.215L19.9352 19.1841C20.4449 21.5282 19.195 22.4232 17.1462 21.1776L14.2841 19.4372C13.7629 19.1192 12.9087 19.1167 12.3877 19.4159L9.48894 21.0837C7.41391 22.2756 6.18152 21.3547 6.74523 19.0249L7.46525 16.0767C7.5997 15.5256 7.38798 14.7356 6.99135 14.3316L4.6116 11.9078C3.22332 10.4828 3.6911 9.06597 5.65658 8.76035L8.72542 8.28536C9.24356 8.20092 9.86188 7.76242 10.0954 7.29553L11.8318 3.91921C12.7795 2.10074 14.2824 2.12064 15.1774 3.96536Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      class="flex h-6 w-6 flex-col items-center justify-center"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 27 27"
+                        fill="none"
+                        preserveAspectRatio="xMidYMid meet"
+                        class="overflow-hidden"
+                      >
+                        <path
+                          d="M15.1774 3.96536L16.8357 7.37406C17.0628 7.84192 17.6701 8.3069 18.1851 8.39244L21.2483 8.94163C23.2098 9.28899 23.6455 10.7168 22.2249 12.114L19.8055 14.4803C19.4016 14.8769 19.1615 15.6614 19.2865 16.215L19.9352 19.1841C20.4449 21.5282 19.195 22.4232 17.1462 21.1776L14.2841 19.4372C13.7629 19.1192 12.9087 19.1167 12.3877 19.4159L9.48894 21.0837C7.41391 22.2756 6.18152 21.3547 6.74523 19.0249L7.46525 16.0767C7.5997 15.5256 7.38798 14.7356 6.99135 14.3316L4.6116 11.9078C3.22332 10.4828 3.6911 9.06597 5.65658 8.76035L8.72542 8.28536C9.24356 8.20092 9.86188 7.76242 10.0954 7.29553L11.8318 3.91921C12.7795 2.10074 14.2824 2.12064 15.1774 3.96536Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div
+                      class="flex h-6 w-6 flex-col items-center justify-center"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 27 27"
+                        fill="none"
+                        preserveAspectRatio="xMidYMid meet"
+                        class="overflow-hidden"
+                      >
+                        <path
+                          d="M15.1774 3.96536L16.8357 7.37406C17.0628 7.84192 17.6701 8.3069 18.1851 8.39244L21.2483 8.94163C23.2098 9.28899 23.6455 10.7168 22.2249 12.114L19.8055 14.4803C19.4016 14.8769 19.1615 15.6614 19.2865 16.215L19.9352 19.1841C20.4449 21.5282 19.195 22.4232 17.1462 21.1776L14.2841 19.4372C13.7629 19.1192 12.9087 19.1167 12.3877 19.4159L9.48894 21.0837C7.41391 22.2756 6.18152 21.3547 6.74523 19.0249L7.46525 16.0767C7.5997 15.5256 7.38798 14.7356 6.99135 14.3316L4.6116 11.9078C3.22332 10.4828 3.6911 9.06597 5.65658 8.76035L8.72542 8.28536C9.24356 8.20092 9.86188 7.76242 10.0954 7.29553L11.8318 3.91921C12.7795 2.10074 14.2824 2.12064 15.1774 3.96536Z"
+                          fill="currentColor"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <!-- Profile -->
+                  <div class="flex items-center gap-4">
+                    <!-- Avatar -->
+                    <div
+                      class="relative aspect-[1_/_1] w-12 overflow-hidden rounded-full border border-solid border-white"
+                    >
+                      <img
+                        src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/65ae50e4a9335d1c737fb8a7_dummy-img.webp"
+                        width="100"
+                        height="100"
+                        alt=""
+                        class="absolute inset-0 inline-block h-full w-full object-cover md:absolute md:object-cover"
+                      />
+                    </div>
+                    <div>
+                      <!-- Name -->
+                      <p class="text-sm font-bold">Laila Bahar</p>
+                      <!-- Role -->
+                      <p class="text-sm">Designer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Quote Component -->
+              <div
+                class="w-full overflow-hidden rounded-2xl border border-solid border-[#ffffff33] bg-[#302c7c4d] md:p-[60px] max-w-[480px] px-5"
+              >
+                <div class="flex flex-col items-center gap-4 text-center">
+                  <!-- Title -->
+                  <h2 class="text-2xl font-bold md:text-3xl">
+                    Get a free quote
+                  </h2>
+                  <!-- Content -->
+                  <p class="text-sm">
+                    Unlock Your Custom Solution – Get Your <br />Free Quote
+                    Today!
+                  </p>
+                </div>
+                <div class="mb-4">
+                  <form>
+                    <!-- Name -->
+                    <div>
+                      <label class="mb-1 font-bold">Your Name</label>
+                      <input
+                        class="block h-9 min-h-[48px] w-full rounded-md border-[0.4px] border-solid border-[#ffffff40] bg-[#00000033] px-4 py-2 align-middle text-sm text-white mb-[1.25rem]"
+                        maxlength="256"
+                        name="name"
+                        placeholder=""
+                        type="text"
+                        required=""
+                      />
+                    </div>
+                    <!-- Email Address -->
+                    <div>
+                      <label class="mb-1 font-bold">Email Address</label>
+                      <input
+                        class="block h-9 min-h-[48px] w-full rounded-md border-[0.4px] border-solid border-[#ffffff40] bg-[#00000033] px-4 py-2 align-middle text-sm text-white mb-[1.25rem]"
+                        maxlength="256"
+                        name="Email-Address"
+                        placeholder=""
+                        type="email"
+                        required=""
+                      />
+                    </div>
+                    <!-- Project Brief -->
+                    <div>
+                      <label class="mb-1 font-bold">Project Brief</label>
+                      <textarea
+                        required=""
+                        placeholder=""
+                        maxlength="5000"
+                        name="Project-Brief"
+                        class="block h-auto min-h-[120px] w-full overflow-auto rounded-md border-[0.4px] border-solid border-[#ffffff40] bg-[#00000033] px-4 py-2 align-middle text-sm text-white mb-[1.25rem]"
+                      >
+                      </textarea>
+                    </div>
+                    <!-- Button -->
+                    <button
+                      type="submit"
+                      class="inline-block w-full rounded-md bg-black px-4 py-2 text-white no-underline"
+                    >
+                      Get Started
+                    </button>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -200,7 +349,7 @@
         </div>
       </section>
       <!-- Lightning Section -->
-      <section class="bg-[#0f0d1f] px-5 md:px-10">
+      <section class="px-5 md:px-10">
         <!-- Container -->
         <div class="mx-auto w-full max-w-7xl px-4 py-24 lg:py-40">
           <div
