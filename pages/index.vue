@@ -1,7 +1,7 @@
 <template>
   <section class="bg-[#0f0d1f]">
     <!-- Header -->
-    <header
+    <nav
       class="fixed z-[100] flex w-screen max-w-[100vw] flex-col border-b border-solid border-b-[#d9d9d90d] bg-[linear-gradient(270deg,_rgb(7,_9,_20),_rgba(7,_9,_20,_0))] lg:bg-[rgba(221,_221,_221,_0)]"
       x-data="{isOpen: false}"
     >
@@ -17,7 +17,7 @@
           />
         </a>
         <!-- Navbar Menu -->
-        <nav class="hidden items-center gap-8 lg:flex lg:gap-8">
+        <div class="hidden items-center gap-8 lg:flex lg:gap-8">
           <!-- Menu Item -->
           <a
             href="/pricing"
@@ -56,7 +56,7 @@
             class="rounded-2xl border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-5 text-center font-semibold text-white transition hover:border-[#792cb5] hover:bg-[#792CB524]"
             >Unlimited Webflow Dev</a
           >
-        </nav>
+        </div>
         <!-- Hamberger Menu -->
         <div
           class="relative block cursor-pointer select-none text-2xl text-white lg:hidden lg:p-[18px]"
@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class="relative">
-        <nav
+        <div
           class="opacity-0 absolute left-0 top-0 flex flex-col gap-8 w-full bg-[#000000e0] pb-16 pt-8 sm:px-10 px-5 text-base font-bold uppercase text-white no-underline"
           x-bind:class="isOpen ? 'show opacity-100' : 'hidden'"
         >
@@ -107,14 +107,14 @@
             class="w-fit cursor-pointer rounded-[18px] border border-solid border-[#472cb5] bg-[#472cb53d] px-6 py-[1.3rem] text-center font-semibold no-underline"
             >Unlimited Webflow Dev</a
           >
-        </nav>
+        </div>
       </div>
-    </header>
+    </nav>
     <main class="text-white bg-auto overflow-clip">
       <!-- Hero Section -->
       <section class="relative block">
         <div
-          class="w-full max-w-7xl mx-auto relative md:px-10 px-5 py-40 lg:pt-60 lg:pb-[22rem]"
+          class="w-full max-w-7xl mx-auto relative py-40 lg:pt-60 lg:pb-[22rem]"
         >
           <div
             class="z-10 flex w-full max-w-[952px] flex-col gap-6"
@@ -136,9 +136,10 @@
             </div>
             <!-- Button -->
             <a
-              color="primary"
               href="#"
               class="w-fit relative mt-6 inline-block overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px] hover:outline-0"
+              x-data="{ x: 0 }"
+              x-on:mousemove="x = $event.clientX - $event.target.getBoundingClientRect().left;"
             >
               <div
                 class="flex items-center justify-center rounded-2xl bg-[#0f0d1f] bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center"
@@ -150,7 +151,8 @@
                 </p>
               </div>
               <div
-                class="absolute bottom-auto left-0 right-auto top-0 h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+                class="absolute bottom-auto right-auto h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+                x-bind:style="'left:' + x + 'px;'"
               ></div>
             </a>
           </div>
@@ -178,77 +180,80 @@
           </div>
         </div>
       </section>
+
       <!-- Discover Section -->
-      <div class="">
-        <section class="overflow-visible lg:h-[1300px]">
-          <div class="sticky lg:top-[20vh]">
+      <section class="overflow-visible lg:h-[1300px]">
+        <div class="sticky lg:top-[20vh]">
+          <div class="mx-auto w-full max-w-7xl py-32 md:py-16 lg:py-24">
+            <!-- Container -->
             <div
-              class="px-5 md:px-10 mx-auto w-full max-w-7xl py-32 md:py-16 lg:py-24"
+              class="flex flex-col items-center gap-20 overflow-visible lg:flex-row"
             >
-              <!-- Container -->
-              <div
-                class="flex flex-col items-center gap-20 overflow-visible lg:flex-row"
-              >
-                <section class="w-full max-w-full flex-none lg:max-w-[560px]">
-                  <!-- Discover Title -->
-                  <h2
-                    class="text-3xl font-bold md:pb-10 md:text-5xl lg:pb-12 pb-6"
-                  >
-                    Discover The Unique ElevateAI Difference
-                  </h2>
-                  <!-- Discover Button -->
-                  <a
-                    color="primary"
-                    href="#"
-                    class="relative inline-block max-w-full overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px]"
-                  >
-                    <div
-                      class="flex items-center justify-center rounded-2xl bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center"
-                    >
-                      <p
-                        class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-['Plus_Jakarta_Sans',_sans-serif] font-bold text-transparent"
-                      >
-                        Unleash the Power of AI
-                      </p>
-                    </div>
-                  </a>
-                </section>
-                <div
-                  class="flex w-full flex-col gap-8 lg:w-[300%] lg:flex-row bg-[#0f0d1f]"
-                  x-data="{ CustomerPosition: (window.pageYOffset > 730 && window.pageYOffset < 1140) ? window.pageYOffset - 730 : window.pageYOffset > 1140 ? 400 : 0, InsightfulPosition: (window.pageYOffset > 730 && window.pageYOffset < 1530) ? window.pageYOffset - 730 : window.pageYOffset > 1530 ? 800 : 0 }"
+              <section class="w-full max-w-full flex-none lg:max-w-[560px]">
+                <!-- Discover Title -->
+                <h2
+                  class="text-3xl font-bold md:pb-10 md:text-5xl lg:pb-12 pb-6"
                 >
-                  <!-- Predictive Analytics Component -->
+                  Discover The Unique ElevateAI Difference
+                </h2>
+                <!-- Discover Button -->
+                <a
+                  href="#"
+                  class="relative inline-block max-w-full overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#452bb1,_#1d1549_53%,_#452bb1)] p-[1.4px]"
+                  x-data="{ x: 0 }"
+                  x-on:mousemove="x = $event.clientX - $event.target.getBoundingClientRect().left;"
+                >
                   <div
-                    class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                    class="flex items-center justify-center rounded-2xl bg-[radial-gradient(circle,_rgb(26,_20,_64)_56%,_rgb(29,_21,_73))] px-6 py-5 text-center"
                   >
-                    <div class="flex flex-col items-start gap-6 sm:gap-8">
-                      <!-- Icon -->
-                      <img
-                        src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38367_Group%2047.svg"
-                        alt="Features Icon 1"
-                        class="inline-block h-8"
-                      />
-                      <!-- Title -->
-                      <h3 class="text-base font-bold md:text-2xl">
-                        Predictive Analytics
-                      </h3>
-                    </div>
-                    <!-- Content -->
-                    <div
-                      class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
+                    <p
+                      class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-['Plus_Jakarta_Sans',_sans-serif] font-bold text-transparent"
                     >
-                      <p class="text-xl font-bold md:text-2xl">01</p>
-                      <p class="text-sm">
-                        Empower your decisions with our AI-driven predictive
-                        analytics, foreseeing market trends that keep you a step
-                        ahead.
-                      </p>
-                    </div>
+                      Unleash the Power of AI
+                    </p>
                   </div>
-                  <!-- Customer Segmentation Component -->
                   <div
-                    class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
-                    x-init="
+                    class="absolute bottom-auto right-auto h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+                    x-bind:style="'left:' + x + 'px;'"
+                  ></div>
+                </a>
+              </section>
+              <div
+                class="flex w-full flex-col gap-8 lg:w-[300%] lg:flex-row bg-[#0f0d1f]"
+                x-data="{ CustomerPosition: (window.pageYOffset > 730 && window.pageYOffset < 1140) ? window.pageYOffset - 730 : window.pageYOffset > 1140 ? 400 : 0, InsightfulPosition: (window.pageYOffset > 730 && window.pageYOffset < 1530) ? window.pageYOffset - 730 : window.pageYOffset > 1530 ? 800 : 0 }"
+              >
+                <!-- Predictive Analytics Component -->
+                <div
+                  class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                >
+                  <div class="flex flex-col items-start gap-6 sm:gap-8">
+                    <!-- Icon -->
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38367_Group%2047.svg"
+                      alt="Features Icon 1"
+                      class="inline-block h-8"
+                    />
+                    <!-- Title -->
+                    <h3 class="text-base font-bold md:text-2xl">
+                      Predictive Analytics
+                    </h3>
+                  </div>
+                  <!-- Content -->
+                  <div
+                    class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
+                  >
+                    <p class="text-xl font-bold md:text-2xl">01</p>
+                    <p class="text-sm">
+                      Empower your decisions with our AI-driven predictive
+                      analytics, foreseeing market trends that keep you a step
+                      ahead.
+                    </p>
+                  </div>
+                </div>
+                <!-- Customer Segmentation Component -->
+                <div
+                  class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                  x-init="
                     window.addEventListener('scroll', () => {
                       if (window.pageYOffset > 730 && window.pageYOffset < 1130)
                         CustomerPosition = window.pageYOffset - 730;
@@ -258,36 +263,36 @@
                         CustomerPosition = 400;
                     });
                   "
-                    x-bind:style="{ transform: 'translateX(' + -CustomerPosition + 'px)' }"
-                  >
-                    <div class="flex flex-col items-start gap-6 sm:gap-8">
-                      <!-- Icon -->
-                      <img
-                        src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38366_Vector.svg"
-                        alt="Features Icon 2"
-                        class="inline-block h-8"
-                      />
-                      <!-- Title -->
-                      <h3 class="text-base font-bold md:text-2xl">
-                        Customer Segmentation
-                      </h3>
-                    </div>
-                    <!-- Content -->
-                    <div
-                      class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
-                    >
-                      <p class="text-xl font-bold md:text-2xl">02</p>
-                      <p class="text-sm">
-                        Demystify your audience with our AI-enhanced customer
-                        segmentation, enabling you to connect deeper and
-                        resonate better.
-                      </p>
-                    </div>
+                  x-bind:style="{ transform: 'translateX(' + -CustomerPosition + 'px)' }"
+                >
+                  <div class="flex flex-col items-start gap-6 sm:gap-8">
+                    <!-- Icon -->
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d38366_Vector.svg"
+                      alt="Features Icon 2"
+                      class="inline-block h-8"
+                    />
+                    <!-- Title -->
+                    <h3 class="text-base font-bold md:text-2xl">
+                      Customer Segmentation
+                    </h3>
                   </div>
-                  <!-- Insightful Actions Component -->
+                  <!-- Content -->
                   <div
-                    class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
-                    x-init="
+                    class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
+                  >
+                    <p class="text-xl font-bold md:text-2xl">02</p>
+                    <p class="text-sm">
+                      Demystify your audience with our AI-enhanced customer
+                      segmentation, enabling you to connect deeper and resonate
+                      better.
+                    </p>
+                  </div>
+                </div>
+                <!-- Insightful Actions Component -->
+                <div
+                  class="flex w-full max-w-none flex-none flex-col justify-between gap-0 rounded-xl bg-[#3323694d] p-8 [box-shadow:rgba(0,_0,_0,_0.05)_0px_1px_12px] lg:max-w-md lg:gap-8 lg:bg-[#332369cc]"
+                  x-init="
                     window.addEventListener('scroll', () => {
                       if (window.pageYOffset > 730 && window.pageYOffset < 1530)
                         InsightfulPosition = window.pageYOffset - 730;
@@ -297,38 +302,38 @@
                         InsightfulPosition = 800;
                     });
                   "
-                    x-bind:style="{ transform: 'translateX(' + -InsightfulPosition + 'px)' }"
+                  x-bind:style="{ transform: 'translateX(' + -InsightfulPosition + 'px)' }"
+                >
+                  <div class="flex flex-col items-start gap-6 sm:gap-8">
+                    <!-- Icon -->
+                    <img
+                      src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836d_Vector%20(3).svg"
+                      alt="Features Icon 3"
+                      class="inline-block h-8"
+                    />
+                    <!-- Title -->
+                    <h3 class="text-base font-bold md:text-2xl">
+                      Insightful&nbsp;Actions
+                    </h3>
+                  </div>
+                  <!-- Content -->
+                  <div
+                    class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
                   >
-                    <div class="flex flex-col items-start gap-6 sm:gap-8">
-                      <!-- Icon -->
-                      <img
-                        src="https://assets-global.website-files.com/657856d0336ed52d94d3834d/657856d0336ed52d94d3836d_Vector%20(3).svg"
-                        alt="Features Icon 3"
-                        class="inline-block h-8"
-                      />
-                      <!-- Title -->
-                      <h3 class="text-base font-bold md:text-2xl">
-                        Insightful&nbsp;Actions
-                      </h3>
-                    </div>
-                    <!-- Content -->
-                    <div
-                      class="mt-8 flex flex-col gap-4 sm:mt-12 sm:flex-row md:items-end sm:gap-24 lg:mt-16"
-                    >
-                      <p class="text-xl font-bold md:text-2xl">03</p>
-                      <p class="text-sm">
-                        Empower your decisions with our AI-driven predictive
-                        analytics, foreseeing market trends that keep you a step
-                        ahead.
-                      </p>
-                    </div>
+                    <p class="text-xl font-bold md:text-2xl">03</p>
+                    <p class="text-sm">
+                      Empower your decisions with our AI-driven predictive
+                      analytics, foreseeing market trends that keep you a step
+                      ahead.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- Blog Section -->
       <section
         class="bg-[#0f0d1f] py-12 md:py-16 lg:py-20"
@@ -757,7 +762,8 @@
                 x-on:click.prevent="process = 'Analysis and Reporting'"
               >
                 <!-- Title -->
-                <h3 class="text-2xl font-bold md:text-2xl"
+                <h3
+                  class="text-2xl font-bold md:text-2xl"
                   x-bind:class="process == 'Analysis and Reporting' ? 'text-[#d72fca]' : 'text-white'"
                 >
                   Analysis and Reporting
@@ -817,7 +823,7 @@
       <!-- Merge Section -->
       <section class="relative block">
         <div class="">
-          <div class="z-10 w-full max-w-7xl mx-auto relative px-5 md:px-10">
+          <div class="z-10 w-full max-w-7xl mx-auto relative">
             <!-- Container -->
             <div
               class="py-12 md:py-16 lg:py-20"
@@ -854,8 +860,9 @@
         </div>
       </section>
       <!-- Pricing Section -->
-      <section class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20"
-      x-data="{pricing: 'annually'}"
+      <section
+        class="max-w-7xl mx-auto bg-[#0f0d1f] py-12 md:py-16 lg:py-20"
+        x-data="{pricing: 'annually'}"
       >
         <!-- Container -->
         <div class="flex flex-col items-center text-center">
@@ -881,14 +888,16 @@
           <div class="md:pb-12 lg:pb-16 pb-8">
             <div class="flex rounded-xl bg-[#0e101b]">
               <!-- Annually Payment -->
-              <div class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
+              <div
+                class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
                 x-on:click="pricing='annually'"
                 x-bind:class="pricing == 'annually' ? 'border-[#792cb533] bg-[#0e101b] mix-blend-screen text-white' : 'text-[#b3aed2]'"
               >
                 Anually
               </div>
               <!-- Monthly Payment -->
-              <div class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
+              <div
+                class="cursor-pointer font-bold px-[2.5rem] py-[1rem] rounded-md m-1"
                 x-on:click="pricing='monthly'"
                 x-bind:class="pricing == 'monthly' ? 'border-[#792cb533] bg-[#0e101b] mix-blend-screen text-white' : 'text-[#b3aed2]'"
               >
@@ -915,8 +924,7 @@
                     <h2
                       class="md:text-5xl text-3xl"
                       x-text="pricing == 'annually' ? '$18.99' : '$14.99'"
-                    >
-                    </h2>
+                    ></h2>
                     <span class="text-sm">/MO</span>
                   </div>
                   <p
@@ -927,7 +935,6 @@
                 </div>
                 <!-- Button -->
                 <a
-                  color="secondary"
                   href="#"
                   class="rounded-[1.125rem] p-[1.4px] no-underline relative overflow-hidden max-w-full inline-block bg-[#00000000] bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)]"
                 >
@@ -1085,8 +1092,7 @@
                     <h2
                       class="md:text-5xl text-3xl"
                       x-text="pricing == 'annually' ? '$32.99' : '$28.99'"
-                    >
-                    </h2>
+                    ></h2>
                     <span class="text-sm">/MO</span>
                   </div>
                   <p
@@ -1097,7 +1103,6 @@
                 </div>
                 <!-- Button -->
                 <a
-                  color="secondary"
                   href="#"
                   class="rounded-[1.125rem] p-[1.4px] no-underline relative overflow-hidden max-w-full inline-block bg-[#00000000] bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)]"
                 >
@@ -1251,8 +1256,7 @@
                     <h2
                       class="md:text-5xl text-3xl"
                       x-text="pricing == 'annually' ? '$99' : '$79'"
-                    >
-                    </h2>
+                    ></h2>
                     <span class="text-sm">/MO</span>
                   </div>
                   <p
@@ -1263,7 +1267,6 @@
                 </div>
                 <!-- Button -->
                 <a
-                  color="secondary"
                   href="#"
                   class="rounded-[1.125rem] p-[1.4px] no-underline relative overflow-hidden max-w-full inline-block bg-[#00000000] bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)]"
                 >
@@ -1422,7 +1425,7 @@
         </div>
         <!-- Container -->
         <div
-          class="relative z-10 mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20"
+          class="relative z-10 mx-auto w-full max-w-7xl py-12 md:py-16 lg:py-20"
         >
           <!-- Component -->
           <div
@@ -1493,21 +1496,23 @@
             </div>
             <!-- Button -->
             <a
-              color="secondary"
               href="#"
-              class="relative inline-block max-w-full overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)] p-[1.4px]"
+              class="w-fit relative inline-block max-w-full overflow-hidden rounded-2xl bg-[linear-gradient(to_right,_#873fbb,_#3e2161_53%,_#873fbb)] p-[1.4px]"
+              x-data="{ x: 0 }"
+              x-on:mousemove="console.log($event.target.getBoundingClientRect()); x = $event.clientX - $event.target.getBoundingClientRect().x;"
             >
               <div
                 class="flex items-center justify-center rounded-2xl bg-[radial-gradient(circle,_rgb(45,_18,_65)_56%,_rgb(53,_21,_77))] p-5 text-center"
               >
                 <p
-                  class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-['Plus_Jakarta_Sans',_sans-serif] font-bold text-transparent"
+                  class="bg-[linear-gradient(to_right,_#c4cff5,_#fcfce7_47%,_#c4cff5)] bg-clip-text font-bold text-transparent"
                 >
                   Get Started
                 </p>
               </div>
               <div
-                class="absolute bottom-auto left-0 right-auto top-0 h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+                class="absolute bottom-auto right-auto h-10 w-10 bg-[#c4cff5] blur-[60px] filter"
+                x-bind:style="'left:' + x + 'px;'"
               ></div>
             </a>
             <div class="p-4"></div>
